@@ -24,11 +24,12 @@ html
     background-color: var(--background);
 }
 
-nav > a, p
+nav > a, nav > p
 {
     color: var(--soft-white);
     text-decoration: none;
     letter-spacing: 1px;
     font-size: 0.8rem;
     display: inline;
+    font-family: var(--lydian);
 }
