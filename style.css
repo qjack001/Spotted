@@ -1,5 +1,82 @@
-@font-face { font-family: Lydian; src: url("/Spotted/assets/fonts/Lydian/Lydian-Bold-Italic-BT.ttf"); }
-@font-face { font-family: Monosten; src: url("Monosten-A-webfont.ttf"); }
+@font-face 
+{ 
+    font-family: Lydian; 
+    src: url("/Spotted/assets/fonts/Lydian/Lydian BT.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{ 
+    font-family: Lydian;
+    src: url("/Spotted/assets/fonts/Lydian/Lydian Italic BT.ttf") format('truetype');
+    font-weight: normal;
+    font-style: italic;
+} 
+
+@font-face 
+{ 
+    font-family: Lydian;
+    src: url("/Spotted/assets/fonts/Lydian/Lydian Bold BT.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+} 
+
+@font-face 
+{ 
+    font-family: Lydian;
+    src: url("/Spotted/assets/fonts/Lydian/Lydian-Bold-Italic-BT.ttf") format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face 
+{
+    font-family: Apercu; 
+    src: url("/Spotted/assets/fonts/Apercu/a-rl.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: Apercu; 
+    src: url("/Spotted/assets/fonts/Apercu/a-rm.ttf") format('truetype');
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: Apercu; 
+    src: url("/Spotted/assets/fonts/Apercu/a-rb.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: Apercu; 
+    src: url("/Spotted/assets/fonts/Apercu/a-il.ttf") format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face 
+{
+    font-family: Apercu; 
+    src: url("/Spotted/assets/fonts/Apercu/a-im.ttf") format('truetype');
+    font-weight: medium;
+    font-style: italic;
+}
+
+@font-face 
+{
+    font-family: Apercu; 
+    src: url("/Spotted/assets/fonts/Apercu/a-ib.ttf") format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
 
 :root 
 {
@@ -29,7 +106,13 @@ nav > a, nav > p
     color: var(--soft-white);
     text-decoration: none;
     letter-spacing: 1px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     display: inline;
     font-family: var(--lydian);
+    transition: color 0.5s linear;
+}
+
+nav > a:hover
+{
+    color: var(--white);
 }
