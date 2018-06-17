@@ -80,7 +80,7 @@
 
 :root 
 {
-    --background: #aff5f5;
+    --background: #caf5f5;
     --green: #63ab50;
     --black: #000000;
     --white: #ffffff;
@@ -109,7 +109,7 @@ nav > a, nav > p
     font-size: 1rem;
     display: inline;
     font-family: var(--lydian);
-    transition: color 0.5s linear;
+    transition: color 0.2s linear;
 }
 
 nav > a:hover
