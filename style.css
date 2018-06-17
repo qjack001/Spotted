@@ -6,7 +6,9 @@
     --background: #aff5f5;
     --green: #63ab50;
     --black: #000000;
+    --white: #ffffff;
     --soft-black: rgba(0, 0, 0, 0.75);
+    --soft-white: rgba(255, 255, 255, 0.75);
     
     --bp-mobile: 600px;
     --bp-tablet: 600px;
@@ -16,3 +18,17 @@
     --apercu: Apercu, sans-serif;
 }
 
+html
+{
+    margin: 0;
+    background-color: var(--background);
+}
+
+nav > a, p
+{
+    color: var(--soft-white);
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    display: inline;
+}
