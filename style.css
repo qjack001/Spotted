@@ -1,6 +1,6 @@
-/*@font-face { font-family: Gilroy; src: url("Gilroy-ExtraBold.otf"); }
+@font-face { font-family: Lydian; src: url("/Spotted/assets/fonts/Lydian/Lydian-Bold-Italic-BT.ttf"); }
 @font-face { font-family: Monosten; src: url("Monosten-A-webfont.ttf"); }
-*/
+
 :root 
 {
     --background: #aff5f5;
