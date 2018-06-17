@@ -1,0 +1,18 @@
+/*@font-face { font-family: Gilroy; src: url("Gilroy-ExtraBold.otf"); }
+@font-face { font-family: Monosten; src: url("Monosten-A-webfont.ttf"); }
+*/
+:root 
+{
+    --background: #aff5f5;
+    --green: #63ab50;
+    --black: #000000;
+    --soft-black: rgba(0, 0, 0, 0.75);
+    
+    --bp-mobile: 600px;
+    --bp-tablet: 600px;
+    --bp-desktop: 1064px;
+    
+    --lydian: Lydian, serif;
+    --apercu: Apercu, sans-serif;
+}
+
