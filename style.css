@@ -24,11 +24,11 @@ html
     background-color: var(--background);
 }
 
-a, p
+nav > a, p
 {
     color: var(--soft-white);
     text-decoration: none;
     letter-spacing: 1px;
-    font-size: 6.8rem;
+    font-size: 0.8rem;
     display: inline;
 }
