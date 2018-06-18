@@ -87,6 +87,10 @@
     --soft-black: rgba(0, 0, 0, 0.75);
     --soft-white: rgba(255, 255, 255, 0.75);
     
+    --logo-text-color: #ffffff;
+    --logo-leaf-color: #63ab50;
+    --logo-leaf-outline: #134615;
+    
     --bp-mobile: 600px;
     --bp-tablet: 600px;
     --bp-desktop: 1064px;
