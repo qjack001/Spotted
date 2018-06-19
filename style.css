@@ -181,13 +181,13 @@ footer span
 }
 
 .catalog
-{
+{    
     cursor: pointer;
     width: 150px;
-    height: 150px;
+    height: 140px;
     float: left;
-    border-radius: 40px;
-    padding: 40px;
+    border-radius: 30px;
+    padding-top: 10px;
     margin: 10px;
     text-align: center;
     transition: all 0.5s linear;
@@ -201,10 +201,13 @@ footer span
     box-shadow: 0px 0px 54px 13px rgba(76,143,68,0.35);
 }
 
-.catalog > img
+.catalog > .image
 {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: -4px;
+    background-size: 100%;
+    background-blend-mode: multiply;
 }
 
 .catalog > h3
