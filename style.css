@@ -146,13 +146,14 @@ nav > a, nav > p
 {
     width: 100%;
     padding: 40px 5%;
+    margin: 0;
     background-color: var(--dark-green);
 }
 
 .footer > p, .footer > a
 {
     letter-spacing: 1px;
-    color: (--soft-white);
+    color: var(--soft-white);
     font-size: 1rem;
     display: inline;
     font-family: var(--lydian);
