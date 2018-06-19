@@ -5,9 +5,15 @@ layout: default
 {% include little-header.html %}
 
 <article class="post">
+    <div class="plant-image" src="background-image: url('{{ site.baseurl }}{{ post.img }}');"></div>
     <h1>{{ page.title }}</h1>
-    <div class="date">
-        {{ page.date | date: "%B %e, %Y" }}
+    <div class="byline">
+        {{ page.author }} &nbsp; {{ page.date | date: "%B %e, %Y" }}
+    </div>
+    <div class="data">
+        one: {{ page.data.one }}
+        two: {{ page.data.two }}
+        three: {{ page.data.three }}
     </div>
 
     <div class="entry">

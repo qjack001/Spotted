@@ -80,13 +80,13 @@
 
 :root 
 {
-    --background: #edffeb;
-    --highlight: #f9fff8;
-    --light-green: #29b007;
-    --dark-green: #006918;
+    --background: #EBFDE6;
+    --highlight: #f8fff7;
+    --light-green: #2aba06;
+    --dark-green: #689961;
     --black: #000000;
     --white: #ffffff;
-    --soft-dark-green: rgba(0, 105, 24, 0.75);
+    --soft-dark-green: rgba(104, 153, 97, 0.75);
     --soft-black: rgba(0, 0, 0, 0.75);
     --soft-white: rgba(255, 255, 255, 0.75);
     
@@ -109,7 +109,7 @@ html
 .little-nav
 {
     display: inline;
-    margin: 85px 0px 0px 0px;
+    margin: 82px 0px 0px 0px;
     float: right;
 }
 
@@ -235,4 +235,49 @@ footer span
     width: -moz-max-content;
     width: max-content;
     max-width: 90%;
+}
+
+.byline
+{
+    font-family: var(apercu);
+    font-size: 0.83rem;
+    color: var(--light-green);
+    text-align: center;
+}
+
+.plant-image
+{
+    width: 350px;
+    height: 350px;
+    margin: 10px auto;
+    background-size: 100%;
+    background-color: var(--background);
+    background-blend-mode: multiply;
+}
+
+.post > h1
+{
+    font-family: var(--lydian);
+    font-size: 2.6rem;
+    color: var(--black);
+}
+
+.entry
+{
+    text-align: left;
+    max-width: 900px;
+}
+
+.entry p
+{
+    font-family: var(apercu);
+    font-size: 1.3rem;
+    color: var(--black);
+}
+
+.post
+{
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
 }

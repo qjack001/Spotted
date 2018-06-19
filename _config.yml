@@ -8,9 +8,6 @@ name: Spotted
 # Short bio or description (displayed in the header)
 description: A collection of catalogued and observed houseplants.
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars2.githubusercontent.com/u/19389660?s=400&v=4
-
 #
 # Flags below are optional
 #
@@ -27,7 +24,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://qjack001.github.io/Spotted/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
