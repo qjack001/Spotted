@@ -197,9 +197,9 @@ footer span
 .catalog:hover
 {
     background-color: var(--highlight);
-    -webkit-box-shadow: 0px 0px 30px 4px rgba(76,143,68,0.35);
-    -moz-box-shadow: 0px 0px 30px 4px rgba(76,143,68,0.35);
-    box-shadow: 0px 0px 30px 4px rgba(76,143,68,0.35);
+    -webkit-box-shadow: 0px 0px 30px 4px rgba(76,143,68,0.35), 0px 2px 5px 0px rgba(76,143,68,0.35);
+    -moz-box-shadow: 0px 0px 30px 4px rgba(76,143,68,0.35), 0px 2px 5px 0px rgba(76,143,68,0.35);
+    box-shadow: 0px 0px 30px 4px rgba(76,143,68,0.35), 0px 2px 5px 0px rgba(76,143,68,0.35);
 }
 
 .catalog .image
@@ -210,6 +210,7 @@ footer span
     background-size: 100%;
     background-color: var(--background);
     background-blend-mode: multiply;
+    transition: all 0.3s linear;
 }
 
 .catalog:hover .image
@@ -227,7 +228,11 @@ footer span
 
 .posts
 {
-    width: 95%;
     margin: 0px auto 10px auto;
-    clear: both;
+    overflow: auto;
+    padding: 20px 5%;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    max-width: 90%;
 }
