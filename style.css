@@ -144,13 +144,17 @@ nav > a, nav > p
 
 footer
 {
-    width: 80%;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
     padding: 40px 5%;
     margin: 0;
     background-color: var(--dark-green);
 }
 
-footer > p, footer > a
+footer > p, span > a
 {
     text-decoration: none;
     font-weight: 100;
@@ -161,13 +165,14 @@ footer > p, footer > a
     transition: color 0.2s linear;
 }
 
-footer > a:hover
+span > a:hover
 {
     color: var(--white);
 }
 
-footer > span
+p > span
 {
     margin: 0px 20px;
     display: inline-block;
+    text-decoration: underline;
 }
