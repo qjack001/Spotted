@@ -81,15 +81,15 @@
 :root 
 {
     --background: #efffed;
-    --green: #134615;
+    --green: #006918;
     --black: #000000;
     --white: #ffffff;
     --soft-black: rgba(0, 0, 0, 0.75);
     --soft-white: rgba(255, 255, 255, 0.75);
     
     --logo-text-color: #ffffff;
-    --logo-leaf-color: #63ab50;
-    --logo-leaf-outline: #134615;
+    --logo-leaf-color: #2ab107;
+    --logo-leaf-outline: #006918;
     
     --bp-mobile: 600px;
     --bp-tablet: 600px;
