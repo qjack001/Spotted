@@ -109,7 +109,8 @@ html
 .little-nav
 {
     display: inline;
-    margin: 0px 0px 0px auto;
+    margin: 85px 0px 0px 0px;
+    float: right;
 }
 
 nav > a, nav > p
@@ -141,3 +142,4 @@ nav > a, nav > p
 {
     color: var(--dark-green);
 }
+
