@@ -80,9 +80,9 @@
 
 :root 
 {
-    --background: #ebfde6;
-    --highlight: #f8fff7;
-    --light-green: #2aba06;
+    --background: #f2fde6;
+    --highlight: #f8fff1;
+    --light-green: #3c9c55;
     --dark-green: #3c9c55;
     --black: #000000;
     --white: #ffffff;
@@ -237,12 +237,14 @@ footer span
     max-width: 90%;
 }
 
-.byline
+.latin-name
 {
     font-family: var(--apercu);
-    font-size: 0.83rem;
+    font-size: 1rem;
     color: var(--light-green);
     text-align: center;
+    margin-bottom: 55px;
+    letter-spacing: 1px;
 }
 
 .plant-image
@@ -258,8 +260,9 @@ footer span
 .post > h1
 {
     font-family: var(--lydian);
-    font-size: 2.6rem;
+    font-size: 3.1rem;
     color: var(--black);
+    margin-bottom: 10px;
 }
 
 .entry
@@ -269,11 +272,16 @@ footer span
     margin: auto;
 }
 
-.entry p
+.entry *
 {
     font-family: var(--apercu);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: var(--black);
+}
+
+.entry a
+{
+    color: var(--light-green);
 }
 
 .post
@@ -281,4 +289,16 @@ footer span
     text-align: center;
     width: 90%;
     margin: 100px auto;
+}
+
+hr
+{
+    color: var(--dark-green);
+}
+
+.byline
+{
+    font-style: italic;
+    font-size: 0.8rem;
+    color: var(--soft-black);
 }

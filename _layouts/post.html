@@ -5,10 +5,10 @@ layout: default
 {% include little-header.html %}
 
 <article class="post">
-    <div class="plant-image" src="background-image: url('{{ site.baseurl }}{{ page.img }}');"></div>
-    <h1>{{ page.title }}</h1>
-    <div class="byline">
-        {{ page.author }} &nbsp; {{ page.date | date: "%B %e, %Y" }}
+    <div class="plant-image" style="background-image: url('{{ site.baseurl }}{{ page.img }}');"></div>
+    <h1>{{ page.common-name }}</h1>
+    <div class="latin-name">
+        {{ page.latin-name }}, &nbsp; {{ page.date | date: "%B %e, %Y" }}
     </div>
     <div class="data">
         one: {{ page.data.one }}
@@ -18,6 +18,8 @@ layout: default
 
     <div class="entry">
         {{ content }}
+        <hr>
+        <p class="byline">Added by {{ page.author }} on {{ page.date | date: "%B %e, %Y" }}.</p>
     </div>
 
     {% include disqus.html %}
