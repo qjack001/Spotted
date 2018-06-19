@@ -8,12 +8,15 @@ layout: default
     <div class="plant-image" style="background-image: url('{{ site.baseurl }}{{ page.img }}');"></div>
     <h1>{{ page.common-name }}</h1>
     <div class="latin-name">
-        {{ page.latin-name }}, &nbsp; {{ page.date | date: "%B %e, %Y" }}
+        {{ page.latin-name }}
     </div>
     <div class="data">
-        one: {{ page.data.one }}
-        two: {{ page.data.two }}
-        three: {{ page.data.three }}
+        Native to: {{ page.data.native-to }}
+        Ideal climate: {{ page.data.ideal-climate }}
+        Type: {{ page.data.type }}
+        Height range: {{ page.data.height-range }}
+        Sun: {{ page.data.sun }}
+        Water: {{ page.data.water }}
     </div>
 
     <div class="entry">
