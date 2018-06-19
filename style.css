@@ -144,10 +144,10 @@ nav > a, nav > p
 
 footer
 {
+    position: absolute;
     left: 0px;
-    bottom: 0px;
     height: 20px;
-    width: 100%;
+    width: 90%;
     padding: 40px 5%;
     margin: 0;
     background-color: var(--dark-green);
