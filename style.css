@@ -80,10 +80,10 @@
 
 :root 
 {
-    --background: #EBFDE6;
+    --background: #ebfde6;
     --highlight: #f8fff7;
     --light-green: #2aba06;
-    --dark-green: #689961;
+    --dark-green: #3c9c55;
     --black: #000000;
     --white: #ffffff;
     --soft-dark-green: rgba(104, 153, 97, 0.75);
@@ -197,9 +197,9 @@ footer span
 .catalog:hover
 {
     background-color: var(--highlight);
-    -webkit-box-shadow: 0px 0px 30px 4px rgba(76,143,68,0.35), 0px 2px 5px 0px rgba(76,143,68,0.35);
-    -moz-box-shadow: 0px 0px 30px 4px rgba(76,143,68,0.35), 0px 2px 5px 0px rgba(76,143,68,0.35);
-    box-shadow: 0px 0px 30px 4px rgba(76,143,68,0.35), 0px 2px 5px 0px rgba(76,143,68,0.35);
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(76,143,68,0.15), 0px 2px 5px 0px rgba(76,143,68,0.35);
+    -moz-box-shadow: 0px 0px 20px 4px rgba(76,143,68,0.15), 0px 2px 5px 0px rgba(76,143,68,0.35);
+    box-shadow: 0px 0px 20px 4px rgba(76,143,68,0.15), 0px 2px 5px 0px rgba(76,143,68,0.35);
 }
 
 .catalog .image
@@ -239,7 +239,7 @@ footer span
 
 .byline
 {
-    font-family: var(apercu);
+    font-family: var(--apercu);
     font-size: 0.83rem;
     color: var(--light-green);
     text-align: center;
@@ -266,11 +266,12 @@ footer span
 {
     text-align: left;
     max-width: 900px;
+    margin: auto;
 }
 
 .entry p
 {
-    font-family: var(apercu);
+    font-family: var(--apercu);
     font-size: 1.3rem;
     color: var(--black);
 }
@@ -279,5 +280,5 @@ footer span
 {
     text-align: center;
     width: 90%;
-    margin: 20px auto;
+    margin: 100px auto;
 }
