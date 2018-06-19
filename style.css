@@ -80,7 +80,7 @@
 
 :root 
 {
-    --background: #efffed;
+    --background: #edffeb;
     --light-green: #2ab107;
     --dark-green: #006918;
     --black: #000000;
@@ -178,4 +178,39 @@ footer span
 {
     margin: 0px 20px;
     display: inline-block;
+}
+
+.catalog
+{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius: 40px;
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+    transition: all 0.5s linear;
+}
+
+.catalog:hover
+{
+    background-color: var(--white);
+    box-shadow: -webkit-box-shadow: 0px 0px 54px 13px rgba(76,143,68,0.35);
+    -moz-box-shadow: 0px 0px 54px 13px rgba(76,143,68,0.35);
+    box-shadow: 0px 0px 54px 13px rgba(76,143,68,0.35);
+}
+
+.catalog > img
+{
+    width: 70px;
+    height: 70px;
+}
+
+.catalog > h3
+{
+    font-style: italic;
+    font-weight: 100;
+    font-family: serif;
+    font-size: 0.7rem;
 }
