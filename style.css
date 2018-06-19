@@ -142,7 +142,7 @@ nav > a, nav > p
     color: var(--dark-green);
 }
 
-.footer
+footer
 {
     width: 100%;
     padding: 40px 5%;
@@ -150,22 +150,22 @@ nav > a, nav > p
     background-color: var(--dark-green);
 }
 
-.footer > p, .footer > a
+footer > p, footer > a
 {
     letter-spacing: 1px;
     color: var(--soft-white);
     font-size: 1rem;
     display: inline;
-    font-family: var(--lydian);
+    font-family: var(--apercu);
     transition: color 0.2s linear;
 }
 
-.footer > a:hover
+footer > a:hover
 {
     color: var(--white);
 }
 
-.footer > span
+footer > span
 {
     margin: 0px 20px;
 }
