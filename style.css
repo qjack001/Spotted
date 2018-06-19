@@ -81,15 +81,15 @@
 :root 
 {
     --background: #efffed;
-    --green: #006918;
+    --light-green: #2ab107;
+    --dark-green: #006918;
     --black: #000000;
     --white: #ffffff;
+    --soft-dark-green: rgba(0, 105, 24, 0.75);
     --soft-black: rgba(0, 0, 0, 0.75);
     --soft-white: rgba(255, 255, 255, 0.75);
     
-    --logo-text-color: #ffffff;
-    --logo-leaf-color: #2ab107;
-    --logo-leaf-outline: #006918;
+    --logo-outline-thickness: 5;
     
     --bp-mobile: 600px;
     --bp-tablet: 600px;
@@ -105,9 +105,15 @@ html
     background-color: var(--background);
 }
 
+
+.little-nav
+{
+    display: inline;
+    margin: 0px 0px 0px auto;
+}
+
 nav > a, nav > p
 {
-    color: var(--soft-white);
     text-decoration: none;
     letter-spacing: 1px;
     font-size: 1rem;
@@ -116,7 +122,22 @@ nav > a, nav > p
     transition: color 0.2s linear;
 }
 
-nav > a:hover
+.big-nav > a, .big-nav > p
+{
+    color: var(--soft-white);
+}
+
+.little-nav > a, .little-nav > p
+{
+    color: var(--soft-dark-green);
+}
+
+.big-nav > a:hover
 {
     color: var(--white);
+}
+
+.little-nav > a:hover
+{
+    color: var(--dark-green);
 }
