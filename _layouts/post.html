@@ -5,10 +5,10 @@ layout: default
 {% include little-header.html %}
 
 <article class="post">
-    <div class="plant-image" style="background-image: url('{{ site.baseurl }}{{ page.img }}');"></div>
+    <div class="plant-image" style="background-image: url('{{ site.baseurl }}{{ page.image }}');"></div>
     <h1>{{ page.common-name }}</h1>
     <div class="latin-name">
-        {{ page.latin-name }}
+        {{ page.data.latin-name }}
     </div>
     <div class="data">
         Native to: {{ page.data.native-to }}

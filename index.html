@@ -7,7 +7,7 @@ layout: default
 <div class="posts">
     {% for post in site.posts %}
         <div class="catalog" onclick="window.location='{{ site.baseurl }}{{ post.url }}'">
-            <div class="image" style="background-image: url('{{ site.baseurl }}{{ post.img }}');"></div>
+            <div class="image" style="background-image: url('{{ site.baseurl }}{{ post.image }}');"></div>
             <h3>{{ post.common-name }}</h3>
         </div>
     {% endfor %}
