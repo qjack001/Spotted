@@ -284,6 +284,7 @@ footer span
     font-family: var(--apercu);
     font-size: 1.2rem;
     color: var(--black);
+    font-weight: 100;
 }
 
 .entry a
@@ -330,8 +331,7 @@ td
     width: 15rem;
 }
 
-td b
+td strong
 {
     color: var(--soft-black);
-    font-weight: 700;
 }
