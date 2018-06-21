@@ -197,9 +197,9 @@ footer span
 .catalog:hover
 {
     background-color: var(--highlight);
-    -webkit-box-shadow: 0px 0px 20px 4px rgba(76,143,68,0.15), 0px 2px 5px 0px rgba(76,143,68,0.35);
-    -moz-box-shadow: 0px 0px 20px 4px rgba(76,143,68,0.15), 0px 2px 5px 0px rgba(76,143,68,0.35);
-    box-shadow: 0px 0px 20px 4px rgba(76,143,68,0.15), 0px 2px 5px 0px rgba(76,143,68,0.35);
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(84, 119, 47, 0.15), 0px 2px 5px 0px rgba(84, 119, 47, 0.15);
+    -moz-box-shadow: 0px 0px 20px 4px rgba(84, 119, 47, 0.15), 0px 2px 5px 0px rgba(84, 119, 47, 0.15);
+    box-shadow: 0px 0px 20px 4px rgba(84, 119, 47, 0.15), 0px 2px 5px 0px rgba(84, 119, 47, 0.15);
 }
 
 .catalog .image
@@ -300,5 +300,26 @@ hr
 {
     font-style: italic;
     font-size: 0.8rem;
+    color: var(--soft-black);
+}
+
+.data
+{
+    background-color: var(--highlight);
+    padding: 30px;
+    border-radius: 30px;
+    border-color: var(--soft-dark-green);
+    border-width: 1px;
+}
+
+td
+{
+    font-family: var(--apercu);
+    padding: 15px;
+    color: var(--black);
+}
+
+td b
+{
     color: var(--soft-black);
 }
