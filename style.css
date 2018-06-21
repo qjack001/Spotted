@@ -104,7 +104,7 @@
     
     --lydian: Lydian, serif;
     --apercu: Apercu, sans-serif;
-    --apercu: "Apercu Mono", mono-space;
+    --apercu-mono: "Apercu Mono", monospace;
 }
 
 html
