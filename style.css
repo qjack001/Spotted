@@ -78,6 +78,12 @@
     font-style: italic;
 }
 
+@font-face 
+{
+    font-family: "Apercu Mono"; 
+    src: url("/Spotted/assets/fonts/Apercu/a-mono.ttf") format('truetype');
+}
+
 :root 
 {
     --background: #f2fde6;
@@ -98,6 +104,7 @@
     
     --lydian: Lydian, serif;
     --apercu: Apercu, sans-serif;
+    --apercu: "Apercu Mono", mono-space;
 }
 
 html
@@ -310,16 +317,21 @@ hr
     border-radius: 30px;
     border-color: var(--soft-dark-green);
     border-width: 1px;
+    border-style: solid;
+    margin: 0 auto 60px auto;
 }
 
 td
 {
-    font-family: var(--apercu);
+    font-family: var(--apercu-mono);
     padding: 15px;
     color: var(--black);
+    text-align: left;
+    width: 15rem;
 }
 
 td b
 {
     color: var(--soft-black);
+    font-weight: 700;
 }
