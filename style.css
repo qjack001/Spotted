@@ -80,11 +80,7 @@
     --soft-black: rgba(0, 0, 0, 0.75);
     --soft-white: rgba(255, 255, 255, 0.75);
     
-    --logo-outline-thickness: 3;
-    
-    --bp-mobile: 600px;
-    --bp-tablet: 600px;
-    --bp-desktop: 1064px;
+    --bp-mobile: 670px;
     
     --lydian: Lydian, serif;
     --apercu: Apercu, sans-serif;
@@ -279,7 +275,7 @@ footer span
 {
     text-align: center;
     width: 90%;
-    margin: 100px auto;
+    margin: 100px auto 60px auto;
 }
 
 hr
@@ -308,7 +304,7 @@ hr
 td
 {
     font-family: var(--apercu-mono);
-    padding: 15px;
+    padding: 5px 15px;
     color: var(--black);
     text-align: left;
     width: 15rem;
