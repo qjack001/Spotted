@@ -218,10 +218,7 @@ footer span
     margin: 0px auto 10px auto;
     overflow: auto;
     padding: 20px 5%;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-    max-width: 90%;
+    width: calc(170px * floor(calc(100% / 170px)));
 }
 
 .latin-name
