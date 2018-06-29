@@ -24,7 +24,7 @@
 ## Contributing
 
 If you notice a bug while viewing the webpage or have a feature request, please [submit an issue](https://github.com/qjack001/Spotted/issues).
-If you would like to add a plant to the catalog, or create a blog post, [follow the guide to do so].(https://github.com/qjack001/Spotted/wiki)
+If you would like to add a plant to the catalog, or create a blog post, [follow the guide to do so](https://github.com/qjack001/Spotted/wiki).
 We are not currently looking for contributions to the development of the site.
 
 ## Credits
@@ -44,4 +44,6 @@ We are not currently looking for contributions to the development of the site.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details. NOTE: the illustrations used within this project are protected by copyright and NOT included in this license, please contact [Ella Minicola](https://github.com/Ella-Minicola) for premission to use.
+This project is licensed under the MIT License - see the LICENSE.md file for details. 
+
+> NOTE: the illustrations used within this project are protected by copyright and NOT included in this license, please contact [Ella Minicola](https://github.com/Ella-Minicola) for premission to use.
