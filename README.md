@@ -10,6 +10,7 @@
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#contributing">Contributing</a> •
+  <a href="#changelog">Changelog</a> •
   <a href="#credits">Credits</a> •
   <a href="#authors">Authors</a> •
   <a href="#license">License</a>
