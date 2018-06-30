@@ -27,6 +27,10 @@ If you notice a bug while viewing the webpage or have a feature request, please 
 If you would like to add a plant to the catalog, or create a blog post, [follow the guide to do so](https://github.com/qjack001/Spotted/wiki).
 We are not currently looking for contributions to the development of the site.
 
+## Changelog
+
+See [CHANGELOG.md](https://github.com/qjack001/Spotted/blob/master/CHANGELOG.md).
+
 ## Credits
 
 - [Jekyll Now](https://github.com/barryclark/jekyll-now/) - Forked orginally from Barry Clark's template.
