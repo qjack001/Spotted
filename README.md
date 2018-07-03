@@ -8,6 +8,7 @@
 <h4 align="center"><a href="https://qjack001.github.io/Spotted/">Spotted</a> is a personal website for <a href="https://qjack001.github.io/Spotted/blog">spotting cool greenery</a> and <a href="https://qjack001.github.io/Spotted/">cataloging plants</a>.</h4>
 
 <p align="center">
+  <a href="#description">Description</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#contributing">Contributing</a> •
   <a href="#changelog">Changelog</a> •
@@ -17,6 +18,10 @@
 </p>
 
 [TODO: screenshot]
+
+## Description
+
+TODO
 
 ## Key Features
 
