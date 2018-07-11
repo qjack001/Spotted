@@ -3,6 +3,8 @@
 
 #### Unreleased
 
+[![BREAKING CHANGE](https://img.shields.io/badge/-BREAKING_CHANGE-FF2222.svg?colorA=FF2222&logoWidth=-8)]() Moved site to custom domain (now www.spotted.site)
+
 [![NEW](https://img.shields.io/badge/-NEW-00CC22.svg?colorA=00CC22&logoWidth=-8)]() Added "snapper" button
 
 #### v1.0
