@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://qjack001.github.io/Spotted/"><img src="TODO: add logo image" alt="Spotted" width="200"></a>
+  <a href="https://qjack001.github.io/Spotted/"><img src="https://qjack001.github.io/Spotted/assets/logo/spotted-logo.png" alt="Spotted" width="200"></a>
   <br>
 </h1>
 
