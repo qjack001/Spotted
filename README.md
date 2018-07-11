@@ -17,7 +17,7 @@
   <a href="#license">License</a>
 </p>
 
-[TODO: screenshot]
+![webpage screenshot](http://spotted.site/assets/images/screenshot-1.png)
 
 ## Description
 
