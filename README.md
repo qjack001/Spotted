@@ -21,7 +21,7 @@
 
 ## Description
 
-TODO
+Spotted is a personal project created by [Jack Guinane](https://github.com/qjack001) and [Ella Minicola](https://github.com/Ella-Minicola). The website consists of hand-made watercolor illustrations by Ella that accompany descriptions of houseplants and other greenery. Jack developed the website for practice with CSS and static site generators. Spotted hosts guides on how to care for plants, as well as blog posts "spotting" cool greenery in the wild.
 
 ## Key Features
 
@@ -35,7 +35,7 @@ We are not currently looking for contributions to the development of the site.
 
 ## Changelog
 
-See [CHANGELOG.md](https://github.com/qjack001/Spotted/blob/master/CHANGELOG.md).
+For an up-to-date copy of the changelog, see [CHANGELOG.md](https://github.com/qjack001/Spotted/blob/master/CHANGELOG.md).
 
 ## Credits
 
