@@ -25,7 +25,12 @@ Spotted is a personal project created by [Jack Guinane](https://github.com/qjack
 
 ## Key Features
 
-- TODO
+- Catalog of plants, including facts and images about them
+- A blog featuring plant inspiration and other "spotted" greenery
+- Fully responsive
+- Crafted design to evoke the atmosphere of a classic almanac
+- Hand-painted watercolor illustrations
+- Built from markdown files using Jekyll
 
 ## Contributing
 
@@ -57,3 +62,7 @@ For an up-to-date copy of the changelog, see [CHANGELOG.md](https://github.com/q
 This project is licensed under the MIT License - see the LICENSE.md file for details. 
 
 > NOTE: the illustrations used within this project are protected by copyright and NOT included in this license, please contact [Ella Minicola](https://github.com/Ella-Minicola) for premission to use.
+
+<br><br>
+<h6 align="center"><i>Thank you for reading</i>
+<br><br><img src="https://raw.githubusercontent.com/qjack001/Spotted/master/favicon.ico" width=18></h6>
