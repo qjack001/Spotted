@@ -110,26 +110,6 @@ nav > a, nav > p
     transition: color 0.2s linear;
 }
 
-@media only screen and (max-width: 670px) 
-{
-    nav > a
-    {
-        display: block;
-        font-size: 2.5rem;
-        line-height: 3.5rem;
-    }
-
-    nav > p
-    {
-        display: none;
-    }
-
-    .little-nav
-    {
-        text-align: right;
-    }
-}
-
 .big-nav > a, .big-nav > p
 {
     color: var(--soft-white);
@@ -187,28 +167,8 @@ footer span
     display: inline-block;
 }
 
-@media only screen and (max-width: 670px)
-{
-    footer
-    {
-        text-align: center;
-    }
-
-    footer a
-    {
-        font-size: 1rem;
-    }
-
-    footer p, footer span
-    {
-        display: block;
-        margin: 20px 0;
-        font-size: 1rem;
-    }
-}
-
 .catalog
-{    
+{
     cursor: pointer;
     width: 150px;
     height: 140px;
@@ -275,8 +235,9 @@ footer span
 
 .plant-image
 {
-    width: 350px;
+    max-width: 350px;
     height: 350px;
+    max-height: calc(100vw - 16px);
     margin: 10px auto;
     background-size: 100%;
     background-color: var(--background);
@@ -313,7 +274,6 @@ footer span
 .post
 {
     text-align: center;
-    width: 90%;
     margin: 100px auto 60px auto;
 }
 
@@ -337,7 +297,7 @@ hr
     border-color: var(--soft-dark-green);
     border-width: 1px;
     border-style: solid;
-    margin: 0 auto 60px auto;
+    margin: 0 auto 60px auto;   
 }
 
 td
@@ -354,7 +314,6 @@ td strong
 {
     color: var(--soft-black);
 }
-
 
 #snapper
 {
@@ -428,4 +387,70 @@ td strong
     user-select: none;
     color: #7b7b7b;
     opacity: 0;
+}
+
+@media only screen and (max-width: 900px) 
+{
+    .entry
+    {
+        margin: auto 20px;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 670px) 
+{
+    nav > a
+    {
+        display: block;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    nav > p
+    {
+        display: none;
+    }
+
+    .little-nav
+    {
+        text-align: right;
+    }
+    
+    footer
+    {
+        text-align: center;
+    }
+
+    footer a
+    {
+        font-size: 1rem;
+    }
+
+    footer p, footer span
+    {
+        display: block;
+        margin: 20px 0;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 470px)
+{
+    td
+    {
+        width: 1rem;
+        font-size: 0.8rem;
+        padding: 5px 5px;
+    }
+
+    .data
+    {
+        background-color: var(--highlight);
+        padding: 30px 5px;
+        border-radius: 0px;
+        border: none;
+        width: 105%;
+        margin: 0 0 60px -8px; 
+    }
 }
