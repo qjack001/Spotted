@@ -96,8 +96,14 @@ html
 .little-nav
 {
     display: inline;
-    margin: 82px 0px 0px 0px;
+    margin: 35px 0px 0px 0px;
     float: right;
+}
+
+.little-header
+{
+    width: 95%;
+    margin: 30px auto;
 }
 
 nav > a, nav > p
@@ -389,6 +395,11 @@ td strong
     opacity: 0;
 }
 
+.logo
+{
+    width: 200px;
+}
+
 @media only screen and (max-width: 900px) 
 {
     .entry
@@ -415,6 +426,7 @@ td strong
     .little-nav
     {
         text-align: right;
+        margin: 0px 0px 0px -100px;
     }
     
     footer
@@ -450,7 +462,12 @@ td strong
         padding: 30px 5px;
         border-radius: 0px;
         border: none;
-        width: 105%;
+        width: calc(100% + 16px);
         margin: 0 0 60px -8px; 
+    }
+    
+    .logo
+    {
+        width: 100px;
     }
 }
