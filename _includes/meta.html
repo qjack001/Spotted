@@ -1,8 +1,14 @@
+    <meta name="author" content="Jack Guinane" />
     <meta charset="utf-8" />
+    <link rel="canonical" href="http://spotted.site/" />
+    <meta property="og:url" content="http://spotted.site.com/" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-    <link rel="icon" type="image/png" href="https://qjack001.github.io/Spotted/favicon.ico">
+    <link rel="icon" href="https://qjack001.github.io/Spotted/favicon.ico" type="image/png" />
+    <link id="favicon" rel="shortcut icon" type="image/png" href="https://qjack001.github.io/Spotted/favicon.ico">
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Spotted" />
     {% if page.excerpt %}
     <meta name="description" content="{{ page.excerpt| strip_html }}" />
     <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
@@ -10,16 +16,7 @@
     <meta name="description" content="{{ site.description }}">
     <meta property="og:description" content="{{ site.description }}" />
     {% endif %}
-    <meta name="author" content="Jack Guinane" />
-
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
     {% endif %}
-    
-
-
-
-
-
-
