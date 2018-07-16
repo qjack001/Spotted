@@ -239,7 +239,7 @@ footer span
     transition: all 0.3s linear;
 }
 
-.catalog:hover .image, .catalog:focus .image,
+.catalog:hover .image
 {
     background-color: var(--highlight);
 }
