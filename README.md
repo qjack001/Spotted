@@ -1,9 +1,9 @@
 
-<h1 align="center">
+<h6 align="center">
   <br>
   <a href="https://qjack001.github.io/Spotted/"><img src="http://spotted.site/assets/logo/spotted-logo-green.png" alt="Spotted" width="400"></a>
   <br>
-</h1>
+</h6>
 
 <h4 align="center"><a href="https://qjack001.github.io/Spotted/">Spotted</a> is a personal website for <a href="https://qjack001.github.io/Spotted/blog">spotting cool greenery</a> and <a href="https://qjack001.github.io/Spotted/">cataloging plants</a>.</h4>
 
@@ -37,6 +37,9 @@ Spotted is a personal project created by [Jack Guinane](https://github.com/qjack
 If you notice a bug while viewing the webpage or have a feature request, please [submit an issue](https://github.com/qjack001/Spotted/issues).
 If you would like to add a plant to the catalog, or create a blog post, [follow the guide to do so](https://github.com/qjack001/Spotted/wiki).
 We are not currently looking for contributions to the development of the site.
+
+- [Catalog Post Tutorial](https://github.com/qjack001/Spotted/wiki/Catalog-Post-Tutorial)
+- [Blog Post Tutorial](https://github.com/qjack001/Spotted/wiki/Blog-Post-Tutorial)
 
 ## Changelog
 
