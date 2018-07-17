@@ -1,7 +1,7 @@
 
 ## Changelog
 
-#### Unreleased
+#### v1.2
 
 [![NEW](https://img.shields.io/badge/-NEW-00CC22.svg?colorA=00CC22&logoWidth=-8)]() Site is now fully responsive
 
@@ -10,6 +10,8 @@
 [![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=-8)]() Compressed .png assets (lossless)
 
 [![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=-8)]() Added meta data information
+
+[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=-8)]() Improved accessibility
 
 [![FIXED](https://img.shields.io/badge/-FIXED-0033FF.svg?colorA=0033FF&logoWidth=-8)]() Add font sources for mobile and IE
 
