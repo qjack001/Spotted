@@ -62,7 +62,7 @@ For an up-to-date copy of the changelog, see [CHANGELOG.md](https://github.com/q
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details. 
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/qjack001/Spotted/blob/master/LICENSE) file for details. 
 
 > NOTE: the illustrations used within this project are protected by copyright and NOT included in this license, please contact [Ella Minicola](https://github.com/Ella-Minicola) for premission to use.
 
