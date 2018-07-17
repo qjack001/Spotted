@@ -217,6 +217,7 @@ footer span
     padding-top: 10px;
     margin: 10px;
     text-align: center;
+    background-color: var(--background);
     transition: all 0.3s linear;
 }
 
@@ -226,6 +227,7 @@ footer span
     -webkit-box-shadow: 0px 0px 20px 4px rgba(84, 119, 47, 0.15), 0px 2px 5px 0px rgba(84, 119, 47, 0.15);
     -moz-box-shadow: 0px 0px 20px 4px rgba(84, 119, 47, 0.15), 0px 2px 5px 0px rgba(84, 119, 47, 0.15);
     box-shadow: 0px 0px 20px 4px rgba(84, 119, 47, 0.15), 0px 2px 5px 0px rgba(84, 119, 47, 0.15);
+    outline: none;
 }
 
 .catalog .image
@@ -234,14 +236,8 @@ footer span
     height: 100px;
     margin: 0px auto -4px auto;
     background-size: 100%;
-    background-color: var(--background);
+    background-color: inherit;
     background-blend-mode: multiply;
-    transition: all 0.3s linear;
-}
-
-.catalog:hover .image
-{
-    background-color: var(--highlight);
 }
 
 .catalog > h3
