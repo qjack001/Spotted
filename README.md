@@ -50,7 +50,7 @@ For an up-to-date copy of the changelog, see [CHANGELOG.md](https://github.com/q
 - [Jekyll Now](https://github.com/barryclark/jekyll-now/) - Forked orginally from Barry Clark's template.
 - [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
 - [Joel Glovier](http://joelglovier.com/writing/) - Used Joel's feed.xml in this repository.
-- [Markdownify](https://github.com/amitmerchant1990/electron-markdownify) - Used as refrence when creating README.md
+- [Markdownify](https://github.com/amitmerchant1990/electron-markdownify) - Used as refrence when creating the README.md
 
 ## Authors
 
