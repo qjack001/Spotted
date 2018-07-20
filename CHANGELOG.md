@@ -1,6 +1,10 @@
 
 ## Changelog
 
+#### Unreleased
+
+[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now served over HTTPS
+
 #### v1.2
 
 [![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site is now fully responsive
