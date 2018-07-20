@@ -6,6 +6,13 @@ permalink: /blog/
 
 {% include big-header.html %}
 
-blog page... soon..
+<div class="posts">
+    {% for post in site.categories.blog %}
+        <div tabindex="0" class="catalog" onclick="window.location='{{ site.baseurl }}{{ post.url }}'">
+            <div class="image" style="background-image: url('{{ site.baseurl }}{{ post.image }}');"></div>
+            <h3>{{ post.common-name }}</h3>
+        </div>
+    {% endfor %}
+</div>
 
 {% include footer.html %}
