@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Spider Plant
-common-name: Spider Plant
+title: Rosemary
+common-name: Rosemary
 author: Ella
-image: /images/spiderplant.jpg
+image: /images/rosemary.jpg
 data:
-  latin-name: Chlorophytum comosum
-  native-to: South Africa
-  ideal-climate: warm & tropical
+  latin-name: Rosmarinus officinalis
+  native-to: Mediterranean
+  ideal-climate: temperate
   type: perennial 
-  height-range: 6-12 inches
+  height-range: 3-4 feet
   sun: prefers full sun
-  water: indirect sunlight
+  water: medium amount
 ---
 
-Spider plants are an extremely popular house plant today- they can withstand neglect as their thick white roots store lots of nutrients and water. They are also great air purifiers- they were found to reduce toxic formaldehyde in a room by 95% over a 24 hour period in a NASA study. And interestingly, they have also been found to be a mild hallucinogenic for house cats, although harmless. They may occasionally produce small white flowers  
+Rosemary’s name originates from the Latin words ‘ros’ and ‘marinus,’ which translate to “dew of the sea.” Despite it’s appearance, the herb is actually from the mint family along with basil, oregano and others. It is important to regularly check soil dampness and water accordingly, as rosemary does not show signs of under watering without significant damage to the plant. 
  
