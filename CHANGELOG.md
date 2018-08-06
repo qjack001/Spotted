@@ -3,37 +3,37 @@
 
 #### Unreleased
 
-[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now served over HTTPS
+[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now served over HTTPS
 
 #### v1.2
 
-[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site is now fully responsive
+[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site is now fully responsive
 
-[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Replaced svg logos with png
+[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Replaced svg logos with png
 
-[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Compressed .png assets (lossless)
+[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Compressed .png assets (lossless)
 
-[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added meta data information
+[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added meta data information
 
-[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Improved accessibility
+[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Improved accessibility
 
-[![FIXED](https://img.shields.io/badge/-%20%20%20FIXED%20%20%20-0033FF.svg?colorA=0033FF&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add font sources for mobile and IE
+[![FIXED](https://img.shields.io/badge/-%20%20%20FIXED%20%20%20-0033FF.svg?colorA=0033FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add font sources for mobile and IE
 
 #### v1.1
 
-[![BREAKING](https://img.shields.io/badge/-BREAKING-FF2222.svg?colorA=FF2222&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Moved site to custom domain (now www.spotted.site)
+[![BREAKING](https://img.shields.io/badge/-BREAKING-FF2222.svg?colorA=FF2222&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Moved site to custom domain (now www.spotted.site)
 
-[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added "snapper" button
+[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added "snapper" button
 
 #### v1.0
 
-[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create fully usable website
+[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create fully usable website
 
-[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set-up markdown catalog with Jekyll
+[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set-up markdown catalog with Jekyll
 
-[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style all elements
+[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style all elements
 
-[![FIXED](https://img.shields.io/badge/-%20%20%20FIXED%20%20%20-0033FF.svg?colorA=0033FF&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sort out all major bugs
+[![FIXED](https://img.shields.io/badge/-%20%20%20FIXED%20%20%20-0033FF.svg?colorA=0033FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sort out all major bugs
 
 
 ***
@@ -41,7 +41,7 @@
 
 #### List of copy-paste-able tags
 
-[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![FIXED](https://img.shields.io/badge/-%20%20%20FIXED%20%20%20-0033FF.svg?colorA=0033FF&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![BREAKING](https://img.shields.io/badge/-BREAKING-FF2222.svg?colorA=FF2222&logoWidth=-8)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![FIXED](https://img.shields.io/badge/-%20%20%20FIXED%20%20%20-0033FF.svg?colorA=0033FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![BREAKING](https://img.shields.io/badge/-BREAKING-FF2222.svg?colorA=FF2222&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
