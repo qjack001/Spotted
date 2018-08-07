@@ -127,6 +127,22 @@ html
     background-color: var(--background);
 }
 
+.big-header
+{
+    background-color:var(--dark-green);
+    width: 100%;
+    margin: 0px 0px 40px 0px;
+    height: 250px;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    background-blend-mode: multiply;
+    background-image: url('/assets/banner 2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
 .little-nav
 {
     display: inline;
@@ -437,6 +453,11 @@ td strong
         margin: auto 20px;
         text-align: justify;
     }
+    
+    .big-header
+    {
+        background-size: 900px; 100%;
+    }
 }
 
 @media only screen and (max-width: 670px) 
@@ -474,6 +495,13 @@ td strong
         display: block;
         margin: 20px 0;
         font-size: 1rem;
+    }
+    
+    .big-header
+    {
+        background-size: 700px 100%;
+        height: 200px;
+        padding-top: 150px;
     }
 }
 
