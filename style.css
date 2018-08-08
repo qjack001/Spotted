@@ -264,6 +264,45 @@ footer span
     font-size: 0.9rem;
 }
 
+.blog
+{
+    cursor: pointer;
+    width: 90%;
+    max-width: 500px;
+    height: 140px;
+    border-radius: 30px;
+    padding-top: 10px;
+    margin: 10px;
+    text-align: left;
+    background-color: var(--background);
+    transition: all 0.3s linear;
+}
+
+.blog:hover, .blog:focus
+{
+    background-color: var(--highlight);
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(84, 119, 47, 0.15), 0px 2px 5px 0px rgba(84, 119, 47, 0.15);
+    -moz-box-shadow: 0px 0px 20px 4px rgba(84, 119, 47, 0.15), 0px 2px 5px 0px rgba(84, 119, 47, 0.15);
+    box-shadow: 0px 0px 20px 4px rgba(84, 119, 47, 0.15), 0px 2px 5px 0px rgba(84, 119, 47, 0.15);
+    outline: none;
+}
+
+.blog .image
+{
+    width: 100px;
+    height: 100px;
+    margin: 0px auto -4px auto;
+    background-size: 100%;
+    background-color: inherit;
+    background-blend-mode: multiply;
+}
+
+.blog > h3
+{
+    font-family: var(--lydian);
+    font-size: 2rem;
+}
+
 .posts
 {
     margin: 0px auto 10px auto;

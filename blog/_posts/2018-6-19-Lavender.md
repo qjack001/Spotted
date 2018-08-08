@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Lavender
-common-name: Lavender
 author: Ella
 image: /images/lavender.png
 data:
