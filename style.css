@@ -311,9 +311,16 @@ footer span
     font-weight: normal;
     color: var(--soft-black);
     font-size: 0.8rem;
-    display: inline;
     font-family: var(--apercu);
-    transition: color 0.2s linear;
+}
+
+.blog .date
+{
+    text-decoration: none;
+    font-weight: normal;
+    color: var(--dark-green);
+    font-size: 0.8rem;
+    font-family: var(--apercu);
 }
 
 .posts
