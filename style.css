@@ -267,14 +267,13 @@ footer span
 .blog
 {
     cursor: pointer;
-    width: 90%;
     max-width: 500px;
     height: 140px;
     border-radius: 30px;
-    padding-top: 10px;
-    margin: 10px;
+    margin: 10px auto;
     text-align: left;
     background-color: var(--background);
+    padding: 20px;
     transition: all 0.3s linear;
 }
 
@@ -289,18 +288,31 @@ footer span
 
 .blog .image
 {
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     margin: 0px auto -4px auto;
     background-size: 100%;
     background-color: inherit;
     background-blend-mode: multiply;
+    float: left;
+    border-radius: 10px;
 }
 
 .blog > h3
 {
     font-family: var(--lydian);
-    font-size: 2rem;
+    margin-left: 160px;
+}
+
+.blog > p
+{
+    text-decoration: none;
+    font-weight: normal;
+    color: var(--soft-black);
+    font-size: 0.8rem;
+    display: inline;
+    font-family: var(--apercu);
+    transition: color 0.2s linear;
 }
 
 .posts
