@@ -274,6 +274,7 @@ footer span
     text-align: left;
     background-color: var(--background);
     padding: 20px;
+    padding-right: 40px;
     transition: all 0.3s linear;
 }
 
