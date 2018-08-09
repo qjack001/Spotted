@@ -462,8 +462,9 @@ td strong
     border-radius: 400px; 
     width: 110px;
     height: 110px;
-    background-image: url(snap.png);
+    background-image: url(/assets/snap.png);
     background-size: 100%;
+    background-blend-mode: multiply;
     transition: all 0.1s linear;
     margin: 10px;
     cursor: pointer;
@@ -493,19 +494,19 @@ td strong
 {
     width: 130px;
     height: 150px;
-    border: solid 5px #fff;
+    border: solid 5px transparent;
 }
 
 .snap-box
 {
-    background-color: #fff;
+    background-color: transparent;
     width: 140px;
     text-align: center;
-    padding: 30px 20px;
-    border-radius: 8px;
+    padding: 20px 10px;
+    border-radius: 0px 8px 8px 0px;
     position: fixed;
     bottom: calc(50% - 118px);
-    left: 50px;
+    left: 0px;
 }
 
 #num-of-snaps
