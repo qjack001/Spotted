@@ -5,6 +5,11 @@
 
 [![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now served over HTTPS
 
+[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added blog section
+
+
+[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Updated Github wiki
+
 #### v1.2
 
 [![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site is now fully responsive
