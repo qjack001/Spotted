@@ -193,6 +193,7 @@ footer
     width: 90%;
     padding: 40px 5%;
     margin: 0;
+    margin-top: 10px;
     background-color: var(--dark-green);
 }
 
