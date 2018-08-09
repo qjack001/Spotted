@@ -276,6 +276,7 @@ footer span
     padding: 20px;
     padding-right: 40px;
     transition: all 0.3s linear;
+    overflow: hidden;
 }
 
 .blog:hover, .blog:focus
@@ -292,7 +293,7 @@ footer span
     width: 140px;
     height: 140px;
     margin: 0px 20px 0px auto;
-    background-size: 100%;
+    background-size: cover;
     background-color: inherit;
     background-blend-mode: multiply;
     float: left;
@@ -312,7 +313,8 @@ footer span
     color: var(--soft-black);
     font-size: 0.8rem;
     font-family: var(--apercu);
-    display: inline;
+    overflow: hidden;
+    height: 30px;
 }
 
 .blog .date
