@@ -215,6 +215,12 @@ footer span
     display: inline-block;
 }
 
+.comments
+{
+    margin: auto;
+    max-width: 900px;
+}
+
 .catalog
 {
     cursor: pointer;
@@ -529,6 +535,11 @@ td strong
     {
         margin: auto 20px;
         text-align: justify;
+    }
+    
+    .comments
+    {
+        
     }
     
     .big-header
