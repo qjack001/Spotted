@@ -467,6 +467,7 @@ td strong
     background-blend-mode: multiply;
     transition: all 0.1s linear;
     margin: 10px;
+    background-color: var(--background);
     cursor: pointer;
 }
 
@@ -503,10 +504,9 @@ td strong
     width: 140px;
     text-align: center;
     padding: 20px 10px;
-    border-radius: 0px 8px 8px 0px;
     position: fixed;
-    bottom: calc(50% - 118px);
-    left: 0px;
+    right: 0px;
+    bottom: 0px;
 }
 
 #num-of-snaps
@@ -539,6 +539,11 @@ td strong
 
 @media only screen and (max-width: 900px) 
 {
+    #snapper-wrapper
+    {
+        display: none;
+    }
+    
     .entry
     {
         margin: auto 20px;
