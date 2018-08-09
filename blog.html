@@ -11,10 +11,7 @@ permalink: /blog/
     <div tabindex="0" class="blog" onclick="window.location='{{ site.baseurl }}{{ post.url }}'">
         <div class="image" style="background-image: url('{{ site.baseurl }}{{ post.image }}');"></div>
         <h3>{{ post.title }}</h3>
-        <p><span class="date">{{ post.date | date: "%B %d, %Y" }} - </span>
-        {% if post.content.size > 100 %}{{ post.content | strip_html | truncate: 100 }}
-        {% else %}{{ post.content | strip_html }}
-        {% endif %}</p>
+        <p><span class="date">{{ post.date | date: "%B %d, %Y" }} - </span>{{ post.content | strip_html }}</p>
     </div>
 {% endfor %}
 
