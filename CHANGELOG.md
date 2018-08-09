@@ -1,7 +1,7 @@
 
 ## Changelog
 
-#### Unreleased
+#### v1.3
 
 [![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now served over HTTPS
 
