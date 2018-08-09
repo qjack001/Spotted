@@ -331,8 +331,9 @@ footer span
 
 .entry img
 {
-    margin: 20px auto;
+    margin: 40px auto;
     max-width: 100%;
+    display: block;
 }
 
 .posts
