@@ -7,9 +7,11 @@
 
 [![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added blog section
 
+[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added comments at end of page
+
 [![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Updated Github wiki
 
-[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now uses Cloudflare to support caching
+[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~~Now uses Cloudflare to support caching~~
 
 [![FIXED](https://img.shields.io/badge/-%20%20%20FIXED%20%20%20-0033FF.svg?colorA=0033FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added critical css to header to reduce FOUC
 
