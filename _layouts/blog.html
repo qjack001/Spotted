@@ -4,12 +4,12 @@ layout: default
 
 {% include little-header.html %}
 
-<article class="post">
-    <div class="blog-image" style="background-image: url('{{ site.baseurl }}{{ page.image }}');"></div>
+<article class="blog-post">
     <h1>{{ page.title }}</h1>
     <div class="latin-name">
-        {{ page.author }} | {{ page.date | date: "%B %e, %Y" }}
+        {{ page.author }} &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; {{ page.date | date: "%B %e, %Y" }}
     </div>
+    <img class="blog-image" alt="hero image" src="{{ site.baseurl }}{{ page.image }}">
 
     <div class="entry">
         {{ content }}
