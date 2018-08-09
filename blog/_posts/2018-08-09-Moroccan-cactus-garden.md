@@ -30,4 +30,4 @@ The colors and textures were very aesthetically pleasing.
 
 ![](/images/<glowingsucc.JPG>)
 ![](/images/<backgroundcactus2.JPG>)
-![](/images/<backgroundcactus.jpg>>)
+![](/images/<backgroundcactus.jpg>)>
