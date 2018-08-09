@@ -544,6 +544,11 @@ td strong
         display: none;
     }
     
+    .snap-box
+    {
+        display: none;
+    }
+    
     .entry
     {
         margin: auto 20px;
