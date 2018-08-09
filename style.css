@@ -365,6 +365,12 @@ footer span
     background-blend-mode: multiply;
 }
 
+.blog-post .latin-name
+{
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
 .post > h1
 {
     font-family: var(--lydian);
@@ -511,6 +517,7 @@ td strong
     user-select: none;
     color: #333;
     opacity: 0;
+    pointer-events: none;
 }
 
 #snap-text
