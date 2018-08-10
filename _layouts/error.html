@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html style="background-color: var(--background);">
+<html style="background-color: var(--dark-green); height: calc(100% - 32px); overflow: hidden;">
     <head>
         {% include meta.html %}
         
-        <title>{{ page.error }} - {{ site.message }}</title>
+        <title>{{ page.error }} - {{ page.message }}</title>
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     </head>
 
@@ -21,9 +21,9 @@
 ###############################################################
 -->
 
-    <body style="text-align: center; padding-top: 8rem;">
-        <h1 style="font-size: 6rem; font-family: var(--apercu);">{{ page.error }}</h1>
-        <p style="font-size: 1.3rem; font-family: var(--lydian);">{{ site.message }}</p>
+    <body style="text-align: center;padding-top: 1rem;background-image: url(/assets/banner.jpg);background-size: 100% 100%;background-blend-mode: multiply;background-color: var(--background); height: 100%;">
+        <h1 style="font-size: 13rem;font-family: var(--apercu);">{{ page.error }}</h1>
+        <p style="margin-top: -120px;font-size: 2rem;font-family: var(--lydian);">{{ page.message }}</p>
         <p style="font-size: 1.3rem; font-family: var(--lydian);"><a href="https://spotted.site" style="color: var(--dark-green);">Go Home</a></p>
     </body>
 </html>
