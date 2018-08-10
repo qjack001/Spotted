@@ -1,7 +1,7 @@
 
 <h6 align="center">
   <br>
-  <a href="https://qjack001.github.io/Spotted/"><img src="http://spotted.site/assets/logo/spotted-logo-green.png" alt="Spotted" width="400"></a>
+  <a href="https://qjack001.github.io/Spotted/"><img src="http://spotted.site/assets/logo/spotted-logo-green@3x.png" alt="Spotted" width="400"></a>
   <br>
 </h6>
 
