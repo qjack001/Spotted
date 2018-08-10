@@ -217,11 +217,20 @@ footer span
 
 blockquote
 {
-    font-family: var(--lydian);
-    font-size: 2rem;
+    font-family: var(--lydian) !important;
+    font-size: 2rem !important;
     display: block;
-    margin: 20px auto;
-    color: var(--dark-green);
+    margin: 40px 60px;
+    text-align: center;
+    color: var(--dark-green) !important;
+}
+
+blockquote > p
+{
+    font-family: var(--lydian) !important;
+    font-size: 2rem !important;
+    text-align: center;
+    color: var(--dark-green) !important;
 }
 
 .comments
@@ -577,6 +586,11 @@ td strong
 
 @media only screen and (max-width: 670px) 
 {
+    blockquote
+    {
+        margin: 40px 20px;
+    }
+    
     .blog-post > h1 
     {
         margin-top: 150px;
