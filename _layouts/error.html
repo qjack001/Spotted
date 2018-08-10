@@ -1,10 +1,90 @@
 <!DOCTYPE html>
-<html style="background-color: var(--dark-green); height: calc(100% - 32px); overflow: hidden;">
+<html>
     <head>
         {% include meta.html %}
         
         <title>{{ page.error }} - {{ page.message }}</title>
-        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+        <style>
+            @font-face 
+            { 
+                font-family: Lydian;
+                font-weight: normal;
+                font-style: normal;
+                src: local("Lydian"),
+                   url('/assets/fonts/Lydian/Lydian BT.woff') format('woff'),
+                   url('/assets/fonts/Lydian/Lydian BT.ttf') format('truetype'),
+                   url('/assets/fonts/Lydian/Lydian BT.eot') format('embedded-opentype');
+            }
+
+            @font-face 
+            { 
+                font-family: Lydian;
+                font-weight: bold;
+                font-style: normal;
+                src: local("Lydian Bold"),
+                   url('/assets/fonts/Lydian/Lydian Bold BT.woff') format('woff'),
+                   url('/assets/fonts/Lydian/Lydian Bold BT.ttf') format('truetype'),
+                   url('/assets/fonts/Lydian/Lydian Bold BT.eot') format('embedded-opentype');
+            }
+
+            @font-face 
+            {
+                font-family: Apercu;
+                font-weight: bold;
+                font-style: normal;
+                src: local("Apercu Bold"),
+                   url('/assets/fonts/Apercu/a-rb.woff') format('woff'),
+                   url('/assets/fonts/Apercu/a-rb.ttf') format('truetype'),
+                   url('/assets/fonts/Apercu/a-rb.eot') format('embedded-opentype');
+            }
+
+            :root 
+            {
+                --background: #f2fde6;
+                --dark-green: #3c9c55;
+
+                --lydian: Lydian, serif;
+                --apercu: Apercu, sans-serif;
+            }
+
+            html
+            {
+                background-color: var(--background); 
+                height: 100%;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            
+            body
+            {
+                text-align: center;
+                padding-top: 1rem;
+                background-image: url(/assets/banner.jpg);
+                background-size: 100% 100%;
+                background-blend-mode: multiply;
+                background-color: var(--background);
+                height: 100%;
+                margin: 0px;
+            }
+            
+            @media only screen and (max-width: 900px) 
+            {
+                .big-header
+                {
+                    background-size: 900px 100%;
+                }
+            }
+
+            @media only screen and (max-width: 670px) 
+            {
+                .big-header
+                {
+                    background-size: 700px 100%;
+                }
+            }
+        </style>
     </head>
 
 <!--
@@ -21,9 +101,9 @@
 ###############################################################
 -->
 
-    <body style="text-align: center;padding-top: 1rem;background-image: url(/assets/banner.jpg);background-size: 100% 100%;background-blend-mode: multiply;background-color: var(--background); height: 100%;">
+    <body>
         <h1 style="font-size: 13rem;font-family: var(--apercu);">{{ page.error }}</h1>
-        <p style="margin-top: -120px;font-size: 2rem;font-family: var(--lydian);">{{ page.message }}</p>
+        <p style="margin-top: -120px;font-size: 2rem;font-family: var(--lydian); font-weight: bold;">{{ page.message }}</p>
         <p style="font-size: 1.3rem; font-family: var(--lydian);"><a href="https://spotted.site" style="color: var(--dark-green);">Go Home</a></p>
     </body>
 </html>
