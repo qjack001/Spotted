@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html style="background-color: var(--background);">
+    <head>
+        {% include meta.html %}
+        
+        <title>{{ page.error }} - {{ site.message }}</title>
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    </head>
+
+<!--
+###############################################################
+      
+       |
+     .'|'.      __  ____   ___   ____, ____, ____, ____
+    /.'|\ \    (/_' ||__) /  \\ ' ||  ' ||   ||_ ' ||  \
+    | /|'.|    ._/) ||    \__//   ||    ||   ||__, ||__/
+     \ |\/
+      \|/     add us on github: https://github.com/qjack001
+       `            https://github.com/Ella-Minicola
+       
+###############################################################
+-->
+
+    <body style="text-align: center; padding-top: 8rem;">
+        <h1 style="font-size: 6rem; font-family: var(--apercu);">{{ page.error }}</h1>
+        <p style="font-size: 1.3rem; font-family: var(--lydian);">{{ site.message }}</p>
+        <p style="font-size: 1.3rem; font-family: var(--lydian);"><a href="https://spotted.site" style="color: var(--dark-green);">Go Home</a></p>
+    </body>
+</html>
