@@ -215,6 +215,15 @@ footer span
     display: inline-block;
 }
 
+blockquote
+{
+    font-family: var(--lydian);
+    font-size: 2rem;
+    display: block;
+    margin: 20px auto;
+    color: var(--dark-green);
+}
+
 .comments
 {
     margin: auto;
