@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Moroccan cactus garden
+title: Moroccan Cactus Garden
 author: Ella
 image: /images/jardin.JPG
 ---
