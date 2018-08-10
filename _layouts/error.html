@@ -61,10 +61,11 @@
             {
                 text-align: center;
                 padding-top: 1rem;
-                background-image: url(/assets/banner.jpg);
-                background-size: 100% 100%;
-                background-blend-mode: multiply;
-                background-color: var(--background);
+                background-image: url(/assets/banner-lowres.jpg), url(/assets/banner.jpg);
+                background-size: 100% 100%, 100% 100%;
+                background-blend-mode: multiply, multiply;
+                background-color: var(--background), var(--background);
+                background-repeat: no-repeat, no-repeat;
                 height: 100%;
                 margin: 0px;
                 background-position: center;
@@ -74,7 +75,7 @@
             {
                 body
                 {
-                    background-size: 900px 100%;
+                    background-size: 900px 100%, 900px 100%;
                 }
             }
 
@@ -82,7 +83,7 @@
             {
                 body
                 {
-                    background-size: 700px 100%;
+                    background-size: 700px 100%, 700px 100%;
                 }
             }
         </style>
