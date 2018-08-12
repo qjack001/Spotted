@@ -19,7 +19,7 @@ Still soft looking, but find renewed energy in the fun colour!
 
 Yes, these are a little prickly looking, but you have to admire the lovely geometry. And as an unexpected plus- the neighbours dog might stop taking shits on your lawn. 
 
-## More cacti?!
+## More fun cacti
 
 ![](/images/grass alternative 3.JPG)
 
@@ -29,4 +29,4 @@ Nothing to add a bit of mexican flavor to your life like adding these succulents
 
 There's lots more alternatives to grass- for something much simpler, check out this guide to maintaining a [moss lawn](https://www.gardeningknowhow.com/lawn-care/lawn-substitutes/moss-lawn/how-to-grow-a-moss-lawn.htm). They are an excellent choice if you are looking to cut down on maintenance and water use, or if you've always wanted to transform your backyard into a meditation space. 
 
-Good luck! Your new zazzy lawn will be putting pep in your step in no time. 
+Good luck and enjoy your new jazzy lawn.  
