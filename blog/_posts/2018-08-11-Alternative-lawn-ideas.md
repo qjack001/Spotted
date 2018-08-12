@@ -11,13 +11,13 @@ Are you tired of your front yard looking like the front cover of a middle-class 
 
 ![](/images/grass alternative 1.JPG)
 
-Still soft looking, but find renewed energy in the fun color!
+Still soft looking, but find renewed energy in the fun colour!
 
 ## Start branching out
 
 ![](/images/grass alternative 2.JPG)
 
-Yes, these are a little prickly looking, but you have to admire the lovely geometry. And as an unexpected plus- the neighbors dog might stop taking shits on your lawn. 
+Yes, these are a little prickly looking, but you have to admire the lovely geometry. And as an unexpected plus- the neighbours dog might stop taking shits on your lawn. 
 
 ## More cacti?!
 
