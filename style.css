@@ -127,7 +127,7 @@ html
     text-align: center;
     padding-top: 250px;
     padding-bottom: 150px;
-    background-image: url('/assets/banner-small.jpg'), url('/assets/banner-large.jpg');
+    background-image: url('/assets/banner-large.jpg'), url('/assets/banner-small.jpg');
     background-repeat: no-repeat, no-repeat;
     background-size: 100% 100%, 100% 100%;
     background-position: center, center;
