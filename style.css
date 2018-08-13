@@ -127,11 +127,10 @@ html
     text-align: center;
     padding-top: 250px;
     padding-bottom: 150px;
-    background-blend-mode: multiply;
-    background-image: url('/assets/banner.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
+    background-image: url('/assets/banner-small.jpg'), url('/assets/banner-large.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 100%, 100% 100%;
+    background-position: center, center;
 }
 
 .little-nav
@@ -314,6 +313,7 @@ blockquote > p
     background-blend-mode: multiply;
     float: left;
     border-radius: 10px;
+    background-position: center;
 }
 
 .blog > h3
@@ -580,7 +580,7 @@ td strong
     
     .big-header
     {
-        background-size: 900px 100%;
+        background-size: 900px 100%, 900px 100%;
     }
 }
 
@@ -638,7 +638,7 @@ td strong
     
     .big-header
     {
-        background-size: 700px 100%;
+        background-size: 700px 100%, 700px 100%;
         height: 200px;
         padding-top: 150px;
     }
