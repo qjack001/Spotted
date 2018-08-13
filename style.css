@@ -355,11 +355,9 @@ blockquote > p
 {
     margin: 0px auto 10px auto;
     overflow: auto;
-    padding: 20px 5%;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-    max-width: 90%;
+    padding: 20px 0px;
+    width: 850px;
+    max-width: 100%;
 }
 
 .latin-name
@@ -557,6 +555,11 @@ td strong
 
 @media only screen and (max-width: 900px) 
 {
+    .posts
+    {
+        width: 510px;
+    }
+    
     #snapper-wrapper
     {
         display: none;
@@ -641,6 +644,14 @@ td strong
         background-size: 700px 100%, 700px 100%;
         height: 200px;
         padding-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 511px) 
+{
+    .posts
+    {
+        width: 340px;
     }
 }
 
