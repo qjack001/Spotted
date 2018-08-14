@@ -118,6 +118,11 @@ html
     background-color: var(--background);
 }
 
+body
+{
+    background-color: var(--background);
+}
+
 .big-header
 {
     background-color:var(--dark-green);
