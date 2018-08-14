@@ -27,5 +27,23 @@
         {{ content }}
         
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+        function getDocHeight() {
+    var D = document;
+    return Math.max(
+        D.body.scrollHeight, D.documentElement.scrollHeight,
+        D.body.offsetHeight, D.documentElement.offsetHeight,
+        D.body.clientHeight, D.documentElement.clientHeight
+    );
+}
+        $(window).scroll(function() {
+       if($(window).scrollTop() + $(window).height() == getDocHeight()) {
+           alert("bottom!");
+           document.documentElement.style.backgroundColor = "red";
+       }
+   });
+        
+    </script>
     </body>
 </html>
