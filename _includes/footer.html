@@ -14,7 +14,7 @@
             }
             $(window).scroll(function() 
             {
-                if($(window).scrollTop() + $(window).height() >= getDocHeight()) 
+                if($(window).scrollTop() + $(window).height() >= (getDocHeight() - 80))
                 {
                     document.documentElement.style.backgroundColor = "var(--dark-green)";
                 }
