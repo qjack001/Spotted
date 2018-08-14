@@ -7,7 +7,11 @@
 
 [![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added retina support for logos
 
+[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reduced image sizes to improve load times
+
 [![FIXED](https://img.shields.io/badge/-%20%20%20FIXED%20%20%20-0033FF.svg?colorA=0033FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added proper 404 and 403 pages
+
+[![FIXED](https://img.shields.io/badge/-%20%20%20FIXED%20%20%20-0033FF.svg?colorA=0033FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fixed the responsiveness of the catalog grid
 
 #### v1.3
 
