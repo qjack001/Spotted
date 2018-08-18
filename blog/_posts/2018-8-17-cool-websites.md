@@ -24,6 +24,8 @@ This experimental website is the latest created by [Drew Marshall](http://www.wo
 
 [![ELEVEN PLANTS FOR DUM-DUMS & COOL PPL website](/images/screenshot-2018-003.png)](http://www.elevenplantsfordumdums.com/)
 
+<br>
+
 ## 3: [Richters Herbs](http://www.herbs.com/)
 
 The OG plant-site is hosted at the coveted [herbs.com](http://www.herbs.com/) (not to be confused with [herb.co](https://herb.co/), a well designed website focusing on just one plant in particular). The design of the site hasn't really changed since 2011, and has always maintained a [relatively consistent style](https://web.archive.org/web/19971210103217/http://www.richters.com:80/) since its creation in 1996. The reason for this is because there really isn't much room for improvement. The site pairs a few different weights of *[Arial](https://www.fonts.com/font/monotype/arial)*, a typeface by [Monotype](https://www.monotype.com/) that's design can be traced back to [Haas Grotesk](https://en.wikipedia.org/wiki/Helvetica). The typeface is timeless in its simplicity, and is beautifully shown off on a variety of green backgrounds (such as #8b4, #A4C973, and #123108) that have [honestly](https://web.archive.org/web/19961114011853/http://www.richters.com:80/) [not](https://web.archive.org/web/19980612140123/http://www.richters.com:80/) [changed](https://web.archive.org/web/20001109152300/http://www.richters.com:80/) [over](https://web.archive.org/web/20040615030937/http://richters.com:80/) [20](https://web.archive.org/web/20060803133732/http://richters.com:80/) [years](https://web.archive.org/web/20110802154943/http://www.richters.com/).
