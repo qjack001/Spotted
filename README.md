@@ -13,10 +13,10 @@
   <img src="https://img.shields.io/badge/safari-passing-brightgreen.svg">
   <img src="https://img.shields.io/badge/safari%20mobile-passing-brightgreen.svg">
   <br>
-  <img src="https://img.shields.io/badge/internet%20explorer-failing-red.svg">
+  <img src="https://img.shields.io/badge/internet%20explorer-passing-red.svg">
   <img src="https://img.shields.io/badge/firefox-passing-brightgreen.svg">
   <img src="https://img.shields.io/badge/firefox%20mobile-passing-brightgreen.svg">
-  <img src="https://img.shields.io/badge/edge-failing-red.svg">
+  <img src="https://img.shields.io/badge/edge-passing-red.svg">
   <img src="https://img.shields.io/badge/opera-passing-brightgreen.svg">
 </p>
 
