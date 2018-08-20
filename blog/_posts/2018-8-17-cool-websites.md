@@ -20,7 +20,7 @@ Turns out there are more websites about plants than just this one. Surprising th
 
 ## 2: [ELEVEN PLANTS FOR DUM-DUMS & COOL PPL](http://www.elevenplantsfordumdums.com/)
 
-This experimental website is the latest created by [Drew Marshall](http://www.workbydrew.com/), which although uses plants as a focus, is actually about fonts. I know, I'm in heaven. ["ELEVEN PLANTS FOR DUM-DUMS & COOL PPL"](http://www.elevenplantsfordumdums.com/) displays 11 plants, each with its own font pairings and design. There is quite a bit of animation, as well as a little bit of custom type. Overall a very aesthetically pleasing, as well as aesthetically diverse website.
+This experimental website is the latest created by [Drew Marshall](http://www.workbydrew.com/) which, although uses plants as a focus, is actually about fonts. I know, I'm in heaven. ["ELEVEN PLANTS FOR DUM-DUMS & COOL PPL"](http://www.elevenplantsfordumdums.com/) displays 11 plants, each with its own font pairings and design. There is quite a bit of animation, as well as a little bit of custom type. Overall a very aesthetically pleasing, as well as aesthetically diverse website.
 
 [![ELEVEN PLANTS FOR DUM-DUMS & COOL PPL website](/images/screenshot-2018-003.png)](http://www.elevenplantsfordumdums.com/)
 
