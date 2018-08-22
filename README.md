@@ -30,7 +30,7 @@
   <a href="#license">License</a>
 </p>
 
-![webpage screenshot](http://spotted.site/assets/images/screenshot-1.png)
+![webpage screenshot](http://spotted.site/assets/images/screenshot-2.png)
 
 ## Description
 
