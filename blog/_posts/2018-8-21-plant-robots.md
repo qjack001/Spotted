@@ -24,7 +24,7 @@ By the time summer had rolled around, humanity was on its last legs. Faced with 
 
 The article was a huge success, being widely regarded as one of the main events that catapulted Editor-in-Chief [Nilay Patel](https://en.wikipedia.org/wiki/Nilay_Patel) into his run as Democratic Presidential Candidate in 2024. The article also helped kick-start [Vincross](https://www.vincross.com/hexa), the company building these cute bots (note that this was back when Vincross was a mere startup, not the billion dollar military tech mogul we know and fear today).
 
-The plant-bots sold like hot cakes, and soon nearly every home in Neo-America (simply called "North America" back then) had a one of these cute crawlers in their home. And for a while humanity was safe; mildly distracted by a new toy, momentarily unaware of their inevitable fate.
+The plant-bots sold like hot cakes, and soon nearly every home in Neo-America (simply called "North America" back then) had a one of these cute crawlers. And for a while humanity was safe; mildly distracted by a new toy, momentarily unaware of their inevitable fate.
 
 ## 2019:
 
