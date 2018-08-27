@@ -5,9 +5,21 @@
 
 [![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Replaced guest comment avatar with custom plant image
 
+[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added easter egg
+
+[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Changed background color at the bottom for a more native feel
+
+[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Replaced data titles with icons in catalog posts
+
 [![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added retina support for logos
 
+[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reduced image sizes to improve load times
+
 [![FIXED](https://img.shields.io/badge/-%20%20%20FIXED%20%20%20-0033FF.svg?colorA=0033FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added proper 404 and 403 pages
+
+[![FIXED](https://img.shields.io/badge/-%20%20%20FIXED%20%20%20-0033FF.svg?colorA=0033FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fixed the responsiveness of the catalog grid
+
+[![FIXED](https://img.shields.io/badge/-%20%20%20FIXED%20%20%20-0033FF.svg?colorA=0033FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added critical css to header to reduce FOUC
 
 #### v1.3
 
@@ -21,7 +33,7 @@
 
 [![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~~Now uses Cloudflare to support caching~~
 
-[![FIXED](https://img.shields.io/badge/-%20%20%20FIXED%20%20%20-0033FF.svg?colorA=0033FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added critical css to header to reduce FOUC
+[![FIXED](https://img.shields.io/badge/-%20%20%20FIXED%20%20%20-0033FF.svg?colorA=0033FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~~Added critical css to header to reduce FOUC~~
 
 [![FIXED](https://img.shields.io/badge/-%20%20%20FIXED%20%20%20-0033FF.svg?colorA=0033FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Properly links to fonts now
 

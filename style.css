@@ -118,6 +118,13 @@ html
     background-color: var(--background);
 }
 
+body
+{
+    background-color: var(--background);
+    margin: 0px;
+    padding: 8px;
+}
+
 .big-header
 {
     background-color:var(--dark-green);
@@ -127,11 +134,10 @@ html
     text-align: center;
     padding-top: 250px;
     padding-bottom: 150px;
-    background-blend-mode: multiply;
-    background-image: url('/assets/banner.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
+    background-image: url('/assets/banner-large.jpg'), url('/assets/banner-small.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 100%, 100% 100%;
+    background-position: center, center;
 }
 
 .little-nav
@@ -184,7 +190,7 @@ footer
     width: 90%;
     padding: 40px 5%;
     margin: 0;
-    margin-top: 25px;
+    padding-top: 50px;
     background-color: var(--dark-green);
 }
 
@@ -314,6 +320,7 @@ blockquote > p
     background-blend-mode: multiply;
     float: left;
     border-radius: 10px;
+    background-position: center;
 }
 
 .blog > h3
@@ -355,11 +362,9 @@ blockquote > p
 {
     margin: 0px auto 10px auto;
     overflow: auto;
-    padding: 20px 5%;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-    max-width: 90%;
+    padding: 20px 0px;
+    width: 850px;
+    max-width: 100%;
 }
 
 .latin-name
@@ -476,7 +481,7 @@ td strong
 
 #snapper
 {
-    border: 1px #cfcfcf solid; 
+    border: 1px rgba(0,0,0,0.2) solid; 
     border-radius: 400px; 
     width: 110px;
     height: 110px;
@@ -500,7 +505,7 @@ td strong
 
 #snapper:active
 {
-    background-color: #eee;
+    background-color: #daeacd;
     background-blend-mode: multiply;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
     width: 110px;
@@ -546,7 +551,7 @@ td strong
     margin: -10px 0px 0px 0px;
     padding: 0;
     user-select: none;
-    color: #7b7b7b;
+    color: #000;
     opacity: 0;
 }
 
@@ -555,8 +560,18 @@ td strong
     width: 200px;
 }
 
+#layout
+{
+    font-family: apercu, sans-serif;
+}
+
 @media only screen and (max-width: 900px) 
 {
+    .posts
+    {
+        width: 510px;
+    }
+    
     #snapper-wrapper
     {
         display: none;
@@ -580,7 +595,7 @@ td strong
     
     .big-header
     {
-        background-size: 900px 100%;
+        background-size: 900px 100%, 900px 100%;
     }
 }
 
@@ -599,6 +614,8 @@ td strong
     body
     {
         margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
     }
     
     nav > a
@@ -638,9 +655,17 @@ td strong
     
     .big-header
     {
-        background-size: 700px 100%;
+        background-size: 700px 100%, 700px 100%;
         height: 200px;
         padding-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 511px) 
+{
+    .posts
+    {
+        width: 340px;
     }
 }
 

@@ -24,3 +24,8 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
     {% endif %}
+    {% if page.image %}
+    <meta property="og:type" content="article" />
+    <meta name="twitter:image" content="http://spotted.site.com{{ page.image }}" />
+    <meta property="og:image" content="http://spotted.site.com{{ page.image }}" />
+    {% endif %}
