@@ -373,6 +373,8 @@ blockquote > p
     font-size: 1rem;
     color: var(--dark-green);
     text-align: center;
+    padding: 0 20px;
+    margin: auto;
     margin-bottom: 55px;
     letter-spacing: 1px;
     max-width: 770px;
