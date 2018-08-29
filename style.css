@@ -375,6 +375,7 @@ blockquote > p
     text-align: center;
     margin-bottom: 55px;
     letter-spacing: 1px;
+    max-width: 770px;
 }
 
 .plant-image
