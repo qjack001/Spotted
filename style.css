@@ -568,6 +568,23 @@ td strong
     font-family: apercu, sans-serif;
 }
 
+.profile-pic
+{
+    width: 200px;
+    border-radius: 30px;
+}
+
+.profile-text
+{    
+    float: right;
+    text-align: left;
+    width: calc(100% - 230px);
+    min-height: 244.44px;
+    padding: 22.22px 0px 0px 0px;
+    margin: 0;
+    font-family: var(--apercu);
+}
+
 @media only screen and (max-width: 900px) 
 {
     .posts
