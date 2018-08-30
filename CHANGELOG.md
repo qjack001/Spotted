@@ -1,7 +1,7 @@
 
 ## Changelog
 
-#### Unreleased
+#### v2.0
 
 [![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Replaced guest comment avatar with custom plant image
 
