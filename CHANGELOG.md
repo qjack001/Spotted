@@ -11,9 +11,13 @@
 
 [![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Replaced data titles with icons in catalog posts
 
+[![NEW](https://img.shields.io/badge/-%20%20%20%20NEW%20%20%20%20-00CC22.svg?colorA=00CC22&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Created "About" page
+
 [![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added retina support for logos
 
 [![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reduced image sizes to improve load times
+
+[![IMPROVED](https://img.shields.io/badge/-IMPROVED-5500FF.svg?colorA=5500FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added social media support when sharing blog posts
 
 [![FIXED](https://img.shields.io/badge/-%20%20%20FIXED%20%20%20-0033FF.svg?colorA=0033FF&logoWidth=0)]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added proper 404 and 403 pages
 
