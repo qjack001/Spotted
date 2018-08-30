@@ -568,13 +568,6 @@ td strong
     font-family: apercu, sans-serif;
 }
 
-.profile
-{
-    max-width: 550px;
-    padding: 30px;
-    margin: auto;"
-}
-
 .profile-pic
 {
     width: 200px;
@@ -591,13 +584,6 @@ td strong
     margin: 0;
     font-family: var(--apercu);
     color: var(--dark-green);
-}
-
-.profile h2
-{
-    font-family: var(--lydian);
-    font-size: 2rem;
-    margin: 0px 230px;
 }
 
 @media only screen and (max-width: 900px) 
@@ -711,11 +697,6 @@ td strong
     .profile-text
     {
         width: calc(100% - 170px);
-    }
-    
-    .profile h2
-    {
-        margin: 0px 170px;
     }
 }
 
