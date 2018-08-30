@@ -583,6 +583,7 @@ td strong
     padding: 22.22px 0px 0px 0px;
     margin: 0;
     font-family: var(--apercu);
+    color: var(--dark-green);
 }
 
 @media only screen and (max-width: 900px) 
@@ -686,6 +687,16 @@ td strong
     .posts
     {
         width: 340px;
+    }
+    
+    .profile-pic
+    {
+        width: 150px;
+    }
+
+    .profile-text
+    {
+        width: calc(100% - 170px);
     }
 }
 
