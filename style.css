@@ -373,8 +373,11 @@ blockquote > p
     font-size: 1rem;
     color: var(--dark-green);
     text-align: center;
+    padding: 0 20px;
+    margin: auto;
     margin-bottom: 55px;
     letter-spacing: 1px;
+    max-width: 770px;
 }
 
 .plant-image
@@ -565,6 +568,24 @@ td strong
     font-family: apercu, sans-serif;
 }
 
+.profile-pic
+{
+    width: 200px;
+    border-radius: 30px;
+}
+
+.profile-text
+{    
+    float: right;
+    text-align: left;
+    width: calc(100% - 230px);
+    min-height: 244.44px;
+    padding: 22.22px 0px 0px 0px;
+    margin: 0;
+    font-family: var(--apercu);
+    color: var(--dark-green);
+}
+
 @media only screen and (max-width: 900px) 
 {
     .posts
@@ -666,6 +687,16 @@ td strong
     .posts
     {
         width: 340px;
+    }
+    
+    .profile-pic
+    {
+        width: 150px;
+    }
+
+    .profile-text
+    {
+        width: calc(100% - 170px);
     }
 }
 
