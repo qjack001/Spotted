@@ -24,13 +24,13 @@ https://www.youtube.com/watch?v=byoEBdVoVpM
 
 I love this guys attitude and commentary. He's crazy passionate about moss, and this video made me want to start my own little moss bed.
 
-![](/images/freshwildmoss.png)
+![](/images/freshwildmoss.jpg)
 https://www.youtube.com/watch?v=8l0eR_QX1Mo
 
 ## Hens and chicks
 
 I used this to propgate my own hens and chicks- hopefully it holds up! This plant it similar to spider plants in that they produce their own clonal offspring, and all you have to do to propagate them is seperate the babies ("chicks") from the mother plant.
 
-![](/images/freshhensandchicks.png)
+![](/images/freshhensandchicks.jpg)
 https://www.youtube.com/watch?v=rA3LHYbDbq0
 
