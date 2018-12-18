@@ -3,7 +3,7 @@ layout: post
 title: Golden Pothos
 common-name: Golden Pothos 
 author: Ella
-image: /images/pothos.jpg
+image: /images/pothos.png
 data:
   latin-name: Epipremnum aureum
   native-to: French Polynesia 
