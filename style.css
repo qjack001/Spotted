@@ -349,6 +349,7 @@ blockquote > p
 {
     max-width: 100%;
     margin: 10px auto 50px auto;
+    max-height: 500px;
 }
 
 .entry img
@@ -356,6 +357,8 @@ blockquote > p
     margin: 40px auto;
     max-width: 100%;
     display: block;
+    max-height: 500px;
+    opacity: 0.9;
 }
 
 .posts
@@ -423,8 +426,31 @@ blockquote > p
 .entry *
 {
     font-family: var(--apercu);
-    font-size: 1.2rem;
+        font-size: 1rem;
     color: var(--black);
+    line-height: 1.7;
+    letter-spacing: 0.01rem;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    -ms-hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-lines: 2;
+    hyphenate-limit-lines: 2;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "kern" 1;
+    -ms-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    -webkit-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+}
+
+.entry h2 
+{
+    font-size: 1.5rem;
+    margin-top: 3rem;
 }
 
 .entry a
