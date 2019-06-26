@@ -2,7 +2,7 @@
 layout: blog
 title: Ella's list of plants with a cohesive aesthetic
 author: Ella
-image: /images/jardin.JPG
+image: /images/Ellasplants.JPG
 ---
 
 Although I really enjoy collecting and experimenting with as many plant varieties as possible, I find the idea of curating a specific plant aesthetic for a house really interesting. I've pretty arbitrarily decided to stick with a maximum of 5 different plant species in my list, but I think this can be modified for different scenarios. Side note- while putting this together, I realized there are many factors to take into consideration when selecting a group of plants to suit a home's aesthetic... so expect a few follow up posts. I've written down some considerations I thought about for this post, just to look back to when I come up with future ideas. 
