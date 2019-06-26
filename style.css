@@ -426,7 +426,7 @@ blockquote > p
 .entry *
 {
     font-family: var(--apercu);
-        font-size: 1rem;
+    font-size: 1em;
     color: var(--black);
     line-height: 1.7;
     letter-spacing: 0.01rem;
