@@ -3,7 +3,7 @@ layout: post
 title: Spider Plant
 common-name: Spider Plant
 author: Ella
-image: /images/spiderplant.jpg
+image: /images/spiderplant.png
 data:
   latin-name: Chlorophytum comosum
   native-to: South Africa
