@@ -1,7 +1,7 @@
 
 <h6 align="center">
   <br>
-  <a href="https://qjack001.github.io/Spotted/"><img src="http://spotted.site/assets/logo/spotted-logo-green@3x.png" alt="Spotted" width="200"></a>
+  <a href="https://qjack001.github.io/Spotted/"><img src="./assets/logo/spotted-logo-green@3x.png" alt="Spotted" width="200"></a>
   <br>
 </h6>
 
@@ -30,7 +30,7 @@
   <a href="#license">License</a>
 </p>
 
-![webpage screenshot](http://spotted.site/assets/images/screenshot-2.png)
+![webpage screenshot](./assets/images/screenshot-2.png)
 
 ## Description
 
@@ -81,4 +81,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 <br><br>
 <h6 align="center"><i>Thank you for reading</i>
-<br><br><img src="https://raw.githubusercontent.com/qjack001/Spotted/master/favicon.ico" width=18></h6>
+<br><br><img src="./favicon.ico" width=18></h6>
