@@ -1,31 +1,46 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="author" content="Ella Minicola, Jack Guinane"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="theme-color" content="#3c9c55">
+<style global>
+	:root
+	{
+		--light-green: 89deg 86% 95%;
+		--green: 136deg 45% 43%;
+		--dark-green: 136deg 65% 5%;
 
-    <meta charset="utf-8" />
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no'>
-    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-    <link rel="canonical" href="https://spotted.site/" />
-    <meta property="og:url" content="https://spotted.site.com/" />
-    <meta name="author" content="Jack Guinane" />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <link rel="icon" href="https://qjack001.github.io/Spotted/favicon.ico" type="image/png" />
-    <link id="favicon" rel="shortcut icon" type="image/png" href="https://qjack001.github.io/Spotted/favicon.ico">
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Spotted" />
-    <meta name="superfish" content="nofish">
-    <meta name="theme-color" content="#f2fde6">
-    
-    {% if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt| strip_html }}" />
-    <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
-    {% else %}
-    <meta name="description" content="{{ site.description }}">
-    <meta property="og:description" content="{{ site.description }}" />
-    {% endif %}
-    {% if page.title %}
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="twitter:title" content="{{ page.title }}" />
-    {% endif %}
-    {% if page.image %}
-    <meta property="og:type" content="article" />
-    <meta name="twitter:image" content="http://spotted.site/{{ page.image }}" />
-    <meta property="og:image" content="http://spotted.site/{{ page.image }}" />
-    {% endif %}
+		--shadow-color: 89deg 28% 52%;
+		--shadow:
+			0px 0.3px 0.4px hsl(var(--shadow-color) / 0.88),
+			0px 9.8px 11.7px -1px hsl(var(--shadow-color) / 1),
+			-0.1px 40.5px 48.3px -2px hsl(var(--shadow-color) / 1);
+
+		--font: "Tekst", serif;
+	}
+
+	html, body
+	{
+		margin: 0;
+		padding: 0;
+		background: hsl(var(--light-green) / 1);
+		color: hsl(var(--dark-green) / 0.8);
+	}
+
+	@font-face
+	{
+		font-family: "Tekst";
+		font-weight: normal;
+		font-style: normal;
+		src: url('/assets/Tekst-DRoman.otf') format('opentype');
+	}
+
+	@font-face
+	{
+		font-family: "Tekst";
+		font-weight: normal;
+		font-style: italic;
+		src: url('/assets/Tekst-DItalic.otf') format('opentype');
+	}
+</style>

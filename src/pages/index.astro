@@ -1,20 +1,117 @@
 ---
-layout: default
+import Metadata from '../components/metadata.astro'
+import Logo from '../components/logo.astro'
+
+const plants = Astro.fetchContent('../pages/*.md');
+const newestFirst = (a, b) => new Date(b['last-updated']).valueOf() - new Date(a['last-updated']).valueOf()
 ---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <Metadata/>
+        <title>Spotted</title>
+    </head>
+    <body>
+		<div class="logo">
+			<Logo/>
+		</div>
+		<section>
+		{
+			plants.sort(newestFirst).map((plant, n) => (
+				<a class="plant" href={plant.url}>
+					<picture>
+						<source type="image/avif" srcset={`/images/${plant.image}.avif`}/>
+						<source type="image/webp" srcset={`/images/${plant.image}.webp`}/>
+						<img src={`/images/${plant.image}.png`} alt="demo"/>
+					</picture>
+					<p>{plant.name}</p>
+				</a>
+			))
+		}
+		</section>
+    </body>
+</html>
+
 <style>
-@font-face{font-family:Lydian;font-weight:400;font-style:normal;src:local("Lydian"),url(/assets/fonts/Lydian/Lydian BT.woff) format('woff'),url(/assets/fonts/Lydian/Lydian BT.ttf) format('truetype'),url(/assets/fonts/Lydian/Lydian BT.eot) format('embedded-opentype')}@font-face{font-family:Lydian;font-weight:400;font-style:italic;src:local("Lydian Italic"),url(/assets/fonts/Lydian/Lydian Italic BT.woff) format('woff'),url(/assets/fonts/Lydian/Lydian Italic BT.ttf) format('truetype'),url(/assets/fonts/Lydian/Lydian Italic BT.eot) format('embedded-opentype')}@font-face{font-family:Lydian;font-weight:700;font-style:normal;src:local("Lydian Bold"),url(/assets/fonts/Lydian/Lydian Bold BT.woff) format('woff'),url(/assets/fonts/Lydian/Lydian Bold BT.ttf) format('truetype'),url(/assets/fonts/Lydian/Lydian Bold BT.eot) format('embedded-opentype')}@font-face{font-family:Lydian;font-weight:700;font-style:italic;src:local("Lydian Bold Italic"),url(/assets/fonts/Lydian/Lydian-Bold-Italic-BT.woff) format('woff'),url(/assets/fonts/Lydian/Lydian-Bold-Italic-BT.ttf) format('truetype'),url(/assets/fonts/Lydian/Lydian-Bold-Italic-BT.eot) format('embedded-opentype')}@font-face{font-family:Apercu;font-weight:400;font-style:normal;src:local("Apercu"),url(/assets/fonts/Apercu/a-rl.woff) format('woff'),url(/assets/fonts/Apercu/a-rl.ttf) format('truetype'),url(/assets/fonts/Apercu/a-rl.eot) format('embedded-opentype')}@font-face{font-family:Apercu;font-weight:700;font-style:normal;src:local("Apercu Bold"),url(/assets/fonts/Apercu/a-rb.woff) format('woff'),url(/assets/fonts/Apercu/a-rb.ttf) format('truetype'),url(/assets/fonts/Apercu/a-rb.eot) format('embedded-opentype')}@font-face{font-family:Apercu;font-weight:400;font-style:italic;src:local("Apercu Italic"),url(/assets/fonts/Apercu/a-il.woff) format('woff'),url(/assets/fonts/Apercu/a-il.ttf) format('truetype'),url(/assets/fonts/Apercu/a-il.eot) format('embedded-opentype')}@font-face{font-family:Apercu;font-weight:700;font-style:italic;src:local("Apercu Bold Italic"),url(/assets/fonts/Apercu/a-ib.woff) format('woff'),url(/assets/fonts/Apercu/a-ib.ttf) format('truetype'),url(/assets/fonts/Apercu/a-ib.eot) format('embedded-opentype')}:root{--background:#f2fde6;--highlight:#f8fff1;--light-green:#38e866;--dark-green:#3c9c55;--black:#000;--white:#fff;--soft-dark-green:rgba(104,153,97,.75);--soft-black:rgba(0,0,0,.75);--soft-white:rgba(255,255,255,.75);--lydian:Lydian,serif;--apercu:Apercu,sans-serif;--apercu-mono:"Apercu Mono",monospace}html{margin:0;background-color:var(--background)}body{background-color:var(--background);margin:0;padding:8px;padding-bottom:20px}.big-header{background-color:var(--dark-green);width:100%;margin:0 0 40px 0;height:250px;text-align:center;padding-top:250px;padding-bottom:150px;background-image:url(/assets/banner-small.jpg);background-repeat:no-repeat;background-size:100% 100%;background-position:center}nav>a,nav>p{text-decoration:none;letter-spacing:1px;font-size:1rem;display:inline;font-family:var(--lydian)}.big-nav>a,.big-nav>p{color:var(--soft-white)}footer{position:absolute;left:0;width:90%;padding:40px 5%;margin:0;padding-top:50px;background-color:var(--dark-green)}footer p,footer a{text-decoration:none;font-weight:400;color:var(--soft-white);font-size:.8rem;display:inline;font-family:var(--apercu)}footer a{text-decoration:underline}footer span{margin:0 20px;display:inline-block}.catalog{width:150px;height:140px;float:left;border-radius:30px;padding-top:10px;margin:10px;text-align:center;background-color:var(--background)}.catalog .image{width:100px;height:100px;margin:0 auto -4px auto;background-size:100%;background-color:inherit;background-blend-mode:multiply}.catalog>h3{font-style:italic;font-weight:400;font-family:serif;font-size:.9rem}.posts{margin:0 auto 10px auto;overflow:auto;padding:20px 0;width:850px;max-width:100%}@media only screen and (max-width:900px){.posts{width:510px}.big-header{background-size:900px 100%,900px 100%}}@media only screen and (max-width:670px){body{margin:0;padding:0;padding-bottom:20px}nav>a{display:block;font-size:2.5rem;line-height:3.5rem}nav>p{display:none}footer{text-align:center}footer a{font-size:1rem}footer p,footer span{display:block;margin:20px 0;font-size:1rem}.big-header{background-size:700px 100%,700px 100%;height:200px;padding-top:150px}}@media only screen and (max-width:511px){.posts{width:340px}}
-</style> <!-- FOUC prevention -->
+	.logo
+	{
+		margin: 100px auto;
+		text-align: center;
+	}
 
-{% include big-header.html %}
+	section
+	{
+		display: grid;
+		gap: 2px;
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+		max-width: 1200px;
+		margin: 120px auto;
+	}
 
-<div class="posts">
-    {% for post in site.categories.catalog %}
-        <div tabindex="0" class="catalog" onclick="window.location='{{ site.baseurl }}{{ post.url }}'">
-            <div class="image" style="background-image: url('{{ site.baseurl }}{{ post.image }}');"></div>
-            <h3>{{ post.common-name }}</h3>
-        </div>
-    {% endfor %}
-</div>
+	a.plant
+	{
+		aspect-ratio: 1 / 1;
+		padding: 10px 16px;
+		border-radius: 2px;
 
-{% include footer.html %}
+		text-decoration: none;
+		color: currentColor;
 
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;;
+
+		background: transparent;
+		transition: all 0.2s ease-out;
+	}
+
+	a.plant:hover,
+	a.plant:focus
+	{
+		transition: all 0.3s ease;
+
+		transform: scale(1.01) translateY(-2px);
+		box-shadow: var(--shadow);
+		background: linear-gradient(0deg,
+			rgb(242, 253, 230) 0%, 
+			rgb(248, 255, 241) 97%,
+			rgb(249, 255, 244) 99%);
+		
+		outline: none;
+		z-index: 10;
+	}
+
+	a.plant > *
+	{
+		grid-column: 1;
+		grid-row: 1;
+	}
+
+	a.plant img
+	{
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+		mix-blend-mode: multiply;
+		user-select: none;
+	}
+
+	a.plant p
+	{
+		font-family: var(--font);
+		font-style: italic;
+		font-size: 1.2rem;
+		line-height: 3;
+
+		text-align: center;
+		align-self: flex-end;
+		z-index: 1;
+		margin: 0;
+
+		text-shadow: 0 -2px 2px hsl(var(--light-green) / 1);
+		background: linear-gradient(180deg,
+			hsl(var(--light-green) / 0) 0%, 
+			hsl(var(--light-green) / 0.8) 30%,
+			hsl(var(--light-green) / 1) 100%);
+	}
+</style>
