@@ -1,0 +1,27 @@
+{
+	"name": "spotted",
+	"version": "3.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "npm run local:avif && npm run local:webp && astro dev",
+		"build": "astro build && npm run convert:images && touch dist/.nojekyll",
+		"lint": "eslint . && textlint **/*.md",
+		"lint:text": "textlint **/*.md",
+		"lint:fix": "eslint . --fix && textlint **/*.md --fix",
+		"convert:images": "npm run convert:avif && npm run convert:webp",
+		"convert:avif": "avif --input=dist/images/*.png --output=dist/images --speed=0 --quality=50",
+		"convert:webp": "imagemin dist/images/*.png --out-dir=dist/images --plugin.webp.method=6 --plugin.webp.quality=50",
+		"local:avif": "avif --input=public/images/*.png --output=public/images --speed=6 --quality=50 --overwrite",
+		"local:webp": "imagemin public/images/*.png --out-dir=public/images --plugin.webp.method=1 --plugin.webp.quality=50"
+	},
+	"dependencies": {
+		"astro": "^0.21.3",
+		"avif": "^0.0.4",
+		"imagemin-cli": "^7.0.0",
+		"imagemin-webp": "^6.0.0"
+	},
+	"devDependencies": {
+		"eslint-config-goodbyte-styleguide": "^0.0.7",
+		"textlint-rule-preset-goodbyte-styleguide": "^0.0.5"
+	}
+}
