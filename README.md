@@ -1,11 +1,11 @@
 
 <h6 align="center">
   <br>
-  <a href="https://qjack001.github.io/Spotted/"><img src="./assets/logo/spotted-logo-green@3x.png" alt="Spotted" width="200"></a>
+  <a href="https://guinane.xyz/Archive/Spotted/2018/"><img src="./assets/logo/spotted-logo-green@3x.png" alt="Spotted" width="200"></a>
   <br>
 </h6>
 
-<h4 align="center"><a href="https://qjack001.github.io/Spotted/">Spotted</a> is a personal website for <a href="https://qjack001.github.io/Spotted/blog">spotting cool greenery</a> and <a href="https://qjack001.github.io/Spotted/">cataloging plants</a>.</h4>
+<h4 align="center"><a href="https://qjack001.github.io/Spotted/">Spotted</a> is a personal website for <a href="https://guinane.xyz/Archive/Spotted/2018//blog">spotting cool greenery</a> and <a href="https://guinane.xyz/Archive/Spotted/2018/">cataloging plants</a>.</h4>
 
 <p align="center">
   <img src="https://img.shields.io/badge/chrome-passing-brightgreen.svg">
@@ -47,18 +47,18 @@ Spotted is a personal project created by [Jack Guinane](https://github.com/qjack
 
 ## Contributing
 
-If you notice a bug while viewing the webpage or have a feature request, please [submit an issue](https://github.com/qjack001/Spotted/issues).
-If you would like to add a plant to the catalog, or create a blog post, [follow the guide to do so](https://github.com/qjack001/Spotted/wiki).
+If you notice a bug while viewing the webpage or have a feature request, please [submit an issue](./issues).
+If you would like to add a plant to the catalog, or create a blog post, [follow the guide to do so](./wiki).
 We are not currently looking for contributions to the development of the site.
 
-- [Catalog Post Tutorial](https://github.com/qjack001/Spotted/wiki/Catalog-Post-Tutorial)
-- [Blog Post Tutorial](https://github.com/qjack001/Spotted/wiki/Blog-Post-Tutorial)
+- [Catalog Post Tutorial](./wiki/Catalog-Post-Tutorial)
+- [Blog Post Tutorial](./wiki/Blog-Post-Tutorial)
 
 ## Changelog
 
-For an up-to-date copy of the changelog, see [CHANGELOG.md](https://github.com/qjack001/Spotted/blob/master/CHANGELOG.md).
+For an up-to-date copy of the changelog, see [CHANGELOG.md](./CHANGELOG.md).
 
-## Credits
+## Thanks to
 
 - [Jekyll Now](https://github.com/barryclark/jekyll-now/) - Forked orginally from Barry Clark's template.
 - [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
@@ -71,11 +71,9 @@ For an up-to-date copy of the changelog, see [CHANGELOG.md](https://github.com/q
 
 [**Ella Minicola**](https://github.com/Ella-Minicola) - Writing and illustration (and a bit of debugging too).
 
-[**Barry Clark**](https://github.com/barryclark/) - Initial work setting up [Jekyll Now](https://github.com/barryclark/jekyll-now/) template.
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/qjack001/Spotted/blob/master/LICENSE) file for details. 
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details. 
 
 > NOTE: the illustrations used within this project are protected by copyright and NOT included in this license, please contact [Ella Minicola](https://github.com/Ella-Minicola) for premission to use.
 
