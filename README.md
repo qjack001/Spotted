@@ -1,84 +1,96 @@
+# Spotted
 
-<h6 align="center">
-  <br>
-  <a href="https://qjack001.github.io/Spotted/"><img src="./assets/logo/spotted-logo-green@3x.png" alt="Spotted" width="200"></a>
-  <br>
-</h6>
+A personal project, [originally developed over the summer over 2018](#historical), for spotting cool
+greenery and cataloging houseplants. The website consists of watercolor illustrations hand-made by
+[Ella](https://github.com/Ella-Minicola) that accompany descriptions of plants and guides to caring
+for them. You can visit the site at [guinane.xyz/Spotted](https://guinane.xyz/Spotted).
 
-<h4 align="center"><a href="https://qjack001.github.io/Spotted/">Spotted</a> is a personal website for <a href="https://qjack001.github.io/Spotted/blog">spotting cool greenery</a> and <a href="https://qjack001.github.io/Spotted/">cataloging plants</a>.</h4>
+### Operational Notes
 
-<p align="center">
-  <img src="https://img.shields.io/badge/chrome-passing-brightgreen.svg">
-  <img src="https://img.shields.io/badge/chrome%20mobile-passing-brightgreen.svg">
-  <img src="https://img.shields.io/badge/safari-passing-brightgreen.svg">
-  <img src="https://img.shields.io/badge/safari%20mobile-passing-brightgreen.svg">
-  <br>
-  <img src="https://img.shields.io/badge/internet%20explorer-passing-red.svg">
-  <img src="https://img.shields.io/badge/firefox-passing-brightgreen.svg">
-  <img src="https://img.shields.io/badge/firefox%20mobile-passing-brightgreen.svg">
-  <img src="https://img.shields.io/badge/edge-passing-red.svg">
-  <img src="https://img.shields.io/badge/opera-passing-brightgreen.svg">
-</p>
+This project is written using [Astro](https://astro.build) and deployed by [Github Pages](https://pages.github.com)
+to the [`compiled-site`](https://github.com/qjack001/Spotted/tree/compiled-site) branch. The deployment process
+follows the same pattern as [my personal site](https://github.com/qjack001/qjack001.github.io/), and more information
+can  be found in [its _Deployment_ section](https://github.com/qjack001/qjack001.github.io/#deployment).
 
-<p align="center">
-  <a href="#description">Description</a> •
-  <a href="#key-features">Key Features</a> •
-  <a href="#contributing">Contributing</a> •
-  <a href="#changelog">Changelog</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#authors">Authors</a> •
-  <a href="#license">License</a>
-</p>
+#### Local Development
 
-![webpage screenshot](./assets/images/screenshot-2.png)
+Clone the repository, and install the dependencies:
 
-## Description
+```bash
+npm install
+```
 
-Spotted is a personal project created by [Jack Guinane](https://github.com/qjack001) and [Ella Minicola](https://github.com/Ella-Minicola). The website consists of hand-made watercolor illustrations by Ella that accompany descriptions of houseplants and other greenery. Jack developed the website for practice with CSS and static site generators. Spotted hosts guides on how to care for plants, as well as blog posts "spotting" cool greenery in the wild.
+To build and run the site locally:
 
-## Key Features
+```bash
+npm run dev
+```
 
-- Catalog of plants, including facts and images about them
-- A blog featuring plant inspiration and other "spotted" greenery
-- Fully responsive
-- Crafted design to evoke the atmosphere of a classic almanac
-- Hand-painted watercolor illustrations
-- Built from markdown files using Jekyll
+#### Project Structure
 
-## Contributing
+```bash
+├─ .github/       # workflow scripts for build & deploy
+├┬ public/
+│└─ images/       # images, obviously
+└┬ src/
+ ├─ components/   # a few simple components
+ ├─ layouts/      # the template for each plant page
+ └┬ pages/
+  ├─ index.html   # the homepage
+  └─ *.md         # all the plant pages
+```
 
-If you notice a bug while viewing the webpage or have a feature request, please [submit an issue](https://github.com/qjack001/Spotted/issues).
-If you would like to add a plant to the catalog, or create a blog post, [follow the guide to do so](https://github.com/qjack001/Spotted/wiki).
-We are not currently looking for contributions to the development of the site.
+#### Adding a New Plant
 
-- [Catalog Post Tutorial](https://github.com/qjack001/Spotted/wiki/Catalog-Post-Tutorial)
-- [Blog Post Tutorial](https://github.com/qjack001/Spotted/wiki/Blog-Post-Tutorial)
+Start by creating a new Markdown file, or coping an existing one, in the [`src/pages/`](./src/pages)
+directory. Name the file after the plant — in all lowercase — and replacing any spaces with hyphens.
+For example, the page for _"Golden Pothos"_ would be named `golden-pothos.md`.
 
-## Changelog
+Fill out the following fields according to the plant you are adding:
 
-For an up-to-date copy of the changelog, see [CHANGELOG.md](https://github.com/qjack001/Spotted/blob/master/CHANGELOG.md).
+```bash
+---
+name: # The Common Name of the Plant
+image: # The name of the image file (without the ".png" extension)
+layout: ../layouts/default.astro
+last-updated: # The date in YYYY-MM-DD format
 
-## Credits
+latin-name: # The Latin Name
+type: # Whether its perennial or annual
+native-to: # Where it is from
+ideal-climate: # The biome it lives in
+height-range: # The size of the plant
+sun: # Sun preference
+water: # Water preference
+---
 
-- [Jekyll Now](https://github.com/barryclark/jekyll-now/) - Forked orginally from Barry Clark's template.
-- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
-- [Joel Glovier](http://joelglovier.com/writing/) - Used Joel's feed.xml in this repository.
-- [Markdownify](https://github.com/amitmerchant1990/electron-markdownify) - Used as refrence when creating the README.md
+# Enter a little blurb here (about one paragraph).
+```
 
-## Authors
+Make sure the image of the plant has a transparent background and is named the same as you wrote it
+in the template above. The `image:` field should only have the file name (i.e. `pothos`) while your
+image should be named the same thing plus the file type (i.e. `pothos.png`). Only use PNG images.
 
-[**Jack Guinane**](https://github.com/qjack001) - Programming, designing, and maintaining.
+Drop the image file into the [`public/images`](./public/images) folder. If you are running the site
+locally, you will need to stop and restart the development server.
 
-[**Ella Minicola**](https://github.com/Ella-Minicola) - Writing and illustration (and a bit of debugging too).
+### Historical
 
-[**Barry Clark**](https://github.com/barryclark/) - Initial work setting up [Jekyll Now](https://github.com/barryclark/jekyll-now/) template.
+Spotted was first developed over the summer of 2018. It was the first multi-paged website I had ever
+built, and that came through in almost every aspect of the finished product. The site was ugly, slow
+to load, and very inaccessible.
 
-## License
+As I improved over the years I became increasingly (and painfully) aware of these shortcomings. But
+as it turned out, the project's code was just as riddled with problems. It was disorganized, hard
+to run locally, and tangled up on itself. For example, all of the site's styling was shoe-horned
+into [one big 750-lined CSS file](https://github.com/qjack001/Spotted/blob/2018-version/style.css).
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/qjack001/Spotted/blob/master/LICENSE) file for details. 
+In late 2021, the domain name for the original iteration of the site — `spotted.site` — expired, and
+I chose not to renew it. The site was relocated to [guinane.xyz/Spotted](https://guinane.xyz/Spotted),
+where it still lives today. This change broke a bunch of things on the site (of course it did), and
+it seemed like if I was going to fix it, I might as well fix everything.
 
-> NOTE: the illustrations used within this project are protected by copyright and NOT included in this license, please contact [Ella Minicola](https://github.com/Ella-Minicola) for premission to use.
-
-<br><br>
-<h6 align="center"><i>Thank you for reading</i>
-<br><br><img src="./favicon.ico" width=18></h6>
+The original site still holds a place in my heart, and you can visit it in all its glory at
+[guinane.xyz/Archive/2018/Spotted](https://guinane.xyz/Archive/2018/Spotted). The source code has
+also been preserved on the [`2018-version`](https://github.com/qjack001/Spotted/tree/2018-version)
+branch.
