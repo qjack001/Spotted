@@ -18,7 +18,7 @@
 			0px 9.8px 11.7px -1px hsl(var(--shadow-color) / 1),
 			-0.1px 40.5px 48.3px -2px hsl(var(--shadow-color) / 1);
 
-		--font: "Tekst", serif;
+		--font: "Tekst", "Times New Roman", serif;
 	}
 
 	html, body
@@ -29,19 +29,23 @@
 		color: hsl(var(--dark-green) / 0.8);
 	}
 
-	@font-face
+	@font-face 
 	{
-		font-family: "Tekst";
+		font-family: 'Tekst';
+		src: url('https://fonts.goodbyte.ca/tekst.woff2') format('woff2'),
+		     url('https://fonts.goodbyte.ca/tekst.woff') format('woff');
 		font-weight: normal;
 		font-style: normal;
-		src: url('/assets/Tekst-DRoman.otf') format('opentype');
+		font-display: swap;
 	}
 
 	@font-face
 	{
-		font-family: "Tekst";
+		font-family: 'Tekst';
+		src: url('https://fonts.goodbyte.ca/tekst-italic.woff2') format('woff2'),
+		     url('https://fonts.goodbyte.ca/tekst-italic.woff') format('woff');
 		font-weight: normal;
 		font-style: italic;
-		src: url('/assets/Tekst-DItalic.otf') format('opentype');
+		font-display: swap;
 	}
 </style>
