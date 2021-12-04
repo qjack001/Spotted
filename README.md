@@ -91,6 +91,6 @@ where it still lives today. This change broke a bunch of things on the site (of 
 it seemed like if I was going to fix it, I might as well fix everything.
 
 The original site still holds a place in my heart, and you can visit it in all its glory at
-[guinane.xyz/Archive/2018/Spotted](https://guinane.xyz/Archive/2018/Spotted). The source code has
+[guinane.xyz/Archive/Spotted/2018](https://guinane.xyz/Archive/Spotted/2018). The source code has
 also been preserved on the [`2018-version`](https://github.com/qjack001/Spotted/tree/2018-version)
 branch.
