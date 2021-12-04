@@ -36,7 +36,7 @@ npm run dev
  ├─ components/   # a few simple components
  ├─ layouts/      # the template for each plant page
  └┬ pages/
-  ├─ index.html   # the homepage
+  ├─ index.astro  # the homepage
   └─ *.md         # all the plant pages
 ```
 
