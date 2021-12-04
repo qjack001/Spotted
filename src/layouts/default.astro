@@ -3,6 +3,7 @@ import Metadata from '../components/metadata.astro'
 import Logo from '../components/logo.astro'
 
 const { content } = Astro.props;
+const baseurl = 'https://guinane.xyz/Spotted'
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -16,9 +17,12 @@ const { content } = Astro.props;
 		</div>
 		<article>
 			<picture>
-				<source type="image/avif" srcset={`/images/${content.image}.avif`}/>
-				<source type="image/webp" srcset={`/images/${content.image}.webp`}/>
-				<img src={`/images/${content.image}.png`} alt="todo"/>
+				<source type="image/avif" srcset={`${baseurl}/images/${content.image}.avif`}/>
+				<source type="image/webp" srcset={`${baseurl}/images/${content.image}.webp`}/>
+				<img
+					src={`${baseurl}/images/${content.image}.png`}
+					alt={`Watercolor illustration of a ${content.name}`}
+				/>
 			</picture>
 			<h1>{content.name}</h1>
 			<p class="latin-name">{content['latin-name']}</p>
