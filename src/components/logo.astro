@@ -1,5 +1,4 @@
 ---
-const baseurl = 'https://guinane.xyz/Spotted'
 // TODO: replace list with fetch once circular dependency is worked out
 // const plants = Astro.fetchContent('../pages/*.md');
 // const images = plants.map((plant) => plant.image)
@@ -26,6 +25,7 @@ const images = [
 
 <script hoist define:vars={{images}}>
 	window.onload = function() {
+		const baseurl = 'https://guinane.xyz/Spotted'
 		const randomImage = images[Math.floor(Math.random() * images.length)]
 		document.getElementById('logo-img').innerHTML = `
 			<source type="image/avif" srcset="${baseurl}/images/${randomImage}.avif"/>
