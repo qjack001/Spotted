@@ -8,7 +8,7 @@ latin-name: Lavandula
 type: perennial
 native-to: Mediterranean and bordering regions
 ideal-climate: temperate
-height-range: 2-3 feet
+height-range: 2–3 feet
 sun: prefers full sun
 water: minimal
 ---

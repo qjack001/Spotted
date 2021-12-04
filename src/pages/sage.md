@@ -8,7 +8,7 @@ latin-name: Salvia Officinalis
 type: perennial
 native-to: Mediterranean
 ideal-climate: temperate 
-height-range: 12-30 inches
+height-range: 12–30 inches
 sun: prefers full sun
 water: direct sunshine
 ---

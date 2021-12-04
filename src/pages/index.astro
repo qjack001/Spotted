@@ -97,6 +97,7 @@ const newestFirst = (a, b) => new Date(b['last-updated']).valueOf() - new Date(a
 		height: 100%;
 		object-fit: contain;
 		mix-blend-mode: multiply;
+		-webkit-user-select: none;
 		user-select: none;
 	}
 
@@ -105,12 +106,13 @@ const newestFirst = (a, b) => new Date(b['last-updated']).valueOf() - new Date(a
 		font-family: var(--font);
 		font-style: italic;
 		font-size: 1.2rem;
-		line-height: 3;
+		line-height: 1;
 
 		text-align: center;
 		align-self: flex-end;
 		z-index: 1;
 		margin: 0;
+		padding: 1.2rem 0;
 
 		text-shadow: 0 -2px 2px hsl(var(--light-green) / 1);
 		background: linear-gradient(180deg,

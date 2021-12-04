@@ -8,7 +8,7 @@ latin-name: Chlorophytum Comosum
 type: perennial
 native-to: South Africa
 ideal-climate: warm & tropical
-height-range: 6-12 inches
+height-range: 6–12 inches
 sun: prefers full sun
 water: indirect sunlight
 ---

@@ -8,7 +8,7 @@ latin-name: Rosmarinus Officinalis
 type: perennial
 native-to: Mediterranean
 ideal-climate: temperate
-height-range: 3-4 feet
+height-range: 3–4 feet
 sun: prefers full sun
 water: medium amount
 ---
