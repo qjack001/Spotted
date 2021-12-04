@@ -1,6 +1,7 @@
 ---
 import Metadata from '../components/metadata.astro'
 import Logo from '../components/logo.astro'
+import PlantData from '../components/plant-data.astro'
 
 const { content } = Astro.props;
 const baseurl = 'https://guinane.xyz/Spotted'
@@ -24,37 +25,12 @@ const baseurl = 'https://guinane.xyz/Spotted'
 					alt={`Watercolor illustration of a ${content.name}`}
 				/>
 			</picture>
+
 			<h1>{content.name}</h1>
 			<p class="latin-name">{content['latin-name']}</p>
-			<section class="data">
-				<title>Data</title>
-				<dl>
-					<span>
-						<dt>Type</dt>
-						<dd>{content['type']}</dd>
-					</span>
-					<span>
-						<dt>Native to</dt>
-						<dd>{content['native-to']}</dd>
-					</span>
-					<span>
-						<dt>Climate</dt>
-						<dd>{content['ideal-climate']}</dd>
-					</span>
-					<span>
-						<dt>Sun</dt>
-						<dd>{content['sun']}</dd>
-					</span>
-					<span>
-						<dt>Water</dt>
-						<dd>{content['water']}</dd>
-					</span>
-					<span>
-						<dt>Height</dt>
-						<dd>{content['height-range']}</dd>
-					</span>
-				</dl>
-			</section>
+
+			<PlantData data={content}/>
+			
 			<section class="content">
 				<slot/>
 			</section>
@@ -97,8 +73,7 @@ const baseurl = 'https://guinane.xyz/Spotted'
 		margin: 10px;
 	}
 
-	.latin-name,
-	section.data dt
+	.latin-name
 	{
 		color: hsl(var(--green) / 1);
 		font-family: Helvetica, sans-serif;
@@ -110,7 +85,6 @@ const baseurl = 'https://guinane.xyz/Spotted'
 		margin: 0;
 	}
 
-	section.data,
 	section.content :global(p)
 	{
 		font-family: var(--font);
@@ -120,41 +94,5 @@ const baseurl = 'https://guinane.xyz/Spotted'
 		max-width: 65ch;
 		margin: 3rem auto;
 		text-align: justify;
-	}
-
-	section.data
-	{
-		background: hsl(var(--green) / 1);
-		border-radius: 10px;
-		padding: 5px 20px 10px;
-		box-sizing: border-box;
-	}
-
-	section.data dl
-	{
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 15px;
-	}
-
-	section.data dt
-	{
-		color: hsl(var(--yellow) / 0.9);
-		font-size: 1rem;
-		text-align: left;
-		margin: 0;
-	}
-
-	section.data dd
-	{
-		color: hsl(var(--light-green) / 1);
-		font-size: 1.4rem;
-		font-style: italic;
-		letter-spacing: -0.03em;
-		margin: 0;
-		padding: 0;
-		line-height: 1;
-		text-indent: 0;
-		text-align: left;
 	}
 </style>
