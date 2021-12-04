@@ -1,6 +1,17 @@
 ---
-const plants = Astro.fetchContent('../pages/*.md');
-const images = plants.map((plant) => plant.image)
+// TODO: replace list with fetch once circular dependency is worked out
+// const plants = Astro.fetchContent('../pages/*.md');
+// const images = plants.map((plant) => plant.image)
+const images = [
+	'lavender',
+	'monsteraadansonii',
+	'newpothos',
+	'pothos',
+	'rosemary',
+	'sage',
+	'spiderplant',
+	'zebraplant'
+]
 ---
 <a href="https://guinane.xyz/Spotted">
 	<title>Spotted</title>
