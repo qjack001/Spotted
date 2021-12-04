@@ -9,13 +9,13 @@
 		"lint:text": "textlint **/*.md",
 		"lint:fix": "eslint . --fix && textlint **/*.md --fix",
 		"convert:images": "npm run convert:avif && npm run convert:webp",
-		"convert:avif": "avif --input=dist/images/*.png --output=dist/images --speed=0 --quality=50",
+		"convert:avif": "avif --input=dist/images/*.png --output=dist/images --speed=0 --quality=50 --overwrite",
 		"convert:webp": "imagemin dist/images/*.png --out-dir=dist/images --plugin.webp.method=6 --plugin.webp.quality=50",
 		"local:avif": "avif --input=public/images/*.png --output=public/images --speed=6 --quality=50 --overwrite",
 		"local:webp": "imagemin public/images/*.png --out-dir=public/images --plugin.webp.method=1 --plugin.webp.quality=50"
 	},
 	"dependencies": {
-		"astro": "^0.21.3",
+		"astro": "0.21.10",
 		"avif": "^0.0.4",
 		"imagemin-cli": "^7.0.0",
 		"imagemin-webp": "^6.0.0"

@@ -1,1 +1,1 @@
-export default ({ renderers: [ '@astrojs/renderer-vue' ]})
+export default ({ renderers: []})
