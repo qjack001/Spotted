@@ -2,7 +2,7 @@
 import Metadata from '../components/metadata.astro'
 import Logo from '../components/logo.astro'
 
-const baseurl = 'https://guinane.xyz/Spotted'
+const baseUrl = import.meta.env.PUBLIC_BASE_URL
 const plants = Astro.fetchContent('../pages/*.md');
 const newestFirst = (a, b) => new Date(b['last-updated']).valueOf() - new Date(a['last-updated']).valueOf()
 ---
@@ -19,12 +19,12 @@ const newestFirst = (a, b) => new Date(b['last-updated']).valueOf() - new Date(a
 		<section>
 		{
 			plants.sort(newestFirst).map((plant) => (
-				<a class="plant" href={baseurl + plant.url}>
+				<a class="plant" href={baseUrl + plant.url}>
 					<picture>
-						<source type="image/avif" srcset={`${baseurl}/images/${plant.image}.avif`}/>
-						<source type="image/webp" srcset={`${baseurl}/images/${plant.image}.webp`}/>
+						<source type="image/avif" srcset={`${baseUrl}/images/${plant.image}.avif`}/>
+						<source type="image/webp" srcset={`${baseUrl}/images/${plant.image}.webp`}/>
 						<img 
-							src={`${baseurl}/images/${plant.image}.png`} 
+							src={`${baseUrl}/images/${plant.image}.png`} 
 							alt={`Watercolor illustration of a ${plant.name}`}
 						/>
 					</picture>

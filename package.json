@@ -3,7 +3,7 @@
 	"version": "3.0.0",
 	"private": true,
 	"scripts": {
-		"dev": "npm run local:avif && npm run local:webp && astro dev",
+		"dev": "npm run local:avif && npm run local:webp && astro dev --verbose",
 		"build": "astro build && npm run convert:images && touch dist/.nojekyll",
 		"lint": "eslint . && textlint **/*.md",
 		"lint:text": "textlint **/*.md",

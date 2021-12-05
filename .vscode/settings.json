@@ -21,6 +21,8 @@
 		"dist": true,
 		".eslintrc": true,
 		".textlintrc": true,
+		".env.development": true,
+		".env.production": true,
 		"astro.config.mjs": true,
 		"public/**/*.avif": true,
 		"public/**/*.webp": true

@@ -3,8 +3,8 @@ import Metadata from '../components/metadata.astro'
 import Logo from '../components/logo.astro'
 import PlantData from '../components/plant-data.astro'
 
-const { content } = Astro.props;
-const baseurl = 'https://guinane.xyz/Spotted'
+const { content } = Astro.props
+const baseUrl = import.meta.env.PUBLIC_BASE_URL
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -18,10 +18,10 @@ const baseurl = 'https://guinane.xyz/Spotted'
 		</div>
 		<article>
 			<picture>
-				<source type="image/avif" srcset={`${baseurl}/images/${content.image}.avif`}/>
-				<source type="image/webp" srcset={`${baseurl}/images/${content.image}.webp`}/>
+				<source type="image/avif" srcset={`${baseUrl}/images/${content.image}.avif`}/>
+				<source type="image/webp" srcset={`${baseUrl}/images/${content.image}.webp`}/>
 				<img
-					src={`${baseurl}/images/${content.image}.png`}
+					src={`${baseUrl}/images/${content.image}.png`}
 					alt={`Watercolor illustration of a ${content.name}`}
 				/>
 			</picture>
