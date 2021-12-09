@@ -1,16 +1,16 @@
 ---
-name: Monstera Adansonii
+name: Monstera adansonii
 image: monsteraadansonii
 layout: ../layouts/default.astro
 last-updated: 2020-04-30
 
-latin-name: Monstera Adansonii
+latin-name: Monstera adansonii
 type: perennial 
 native-to: South and Central America
-ideal-climate: Tropical
+ideal-climate: tropical
 height-range: over 1 m with proper support
 sun: bright indirect sunlight
-water: frequent, prefers lightly damp soil
+water: frequent
 ---
 
 *Monstera adansonii* are a peculiar species from the higher classification *Monstera*. Much like
