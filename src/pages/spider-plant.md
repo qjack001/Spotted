@@ -9,8 +9,8 @@ type: perennial
 native-to: South Africa
 ideal-climate: warm & tropical
 height-range: 6–12 inches
-sun: prefers full sun
-water: indirect sunlight
+sun: prefers full sun, tolerates low light
+water: moderate, tolerates dry soil
 ---
 
 Spider plants are an extremely popular house plant today- they can withstand neglect as their thick

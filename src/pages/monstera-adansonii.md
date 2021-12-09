@@ -1,6 +1,6 @@
 ---
 name: Monstera adansonii
-image: monsteraadansonii
+image: monstera-adansonii
 layout: ../layouts/default.astro
 last-updated: 2020-04-30
 

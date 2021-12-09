@@ -1,6 +1,6 @@
 ---
 name: Ficus elastica
-image: Ficus-elastica 
+image: ficus-elastica 
 layout: ../layouts/default.astro
 last-updated: 2021-12-08
 

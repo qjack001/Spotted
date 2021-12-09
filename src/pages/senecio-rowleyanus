@@ -1,6 +1,6 @@
 ---
 name: Curio rowleyanus
-image: Curio-rowleyanus
+image: curio-rowleyanus
 layout: ../layouts/default.astro
 last-updated: 2021-12-08
 
