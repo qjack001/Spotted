@@ -2,6 +2,7 @@
 import Metadata from '../components/metadata.astro'
 import Logo from '../components/logo.astro'
 import PlantData from '../components/plant-data.astro'
+import Footer from '../components/plant-footer.astro'
 
 const { content } = Astro.props
 const baseUrl = import.meta.env.PUBLIC_BASE_URL
@@ -25,15 +26,13 @@ const baseUrl = import.meta.env.PUBLIC_BASE_URL
 					alt={`Watercolor illustration of a ${content.name}`}
 				/>
 			</picture>
-
 			<h1>{content.name}</h1>
 			<p class="latin-name">{content['latin-name']}</p>
-
 			<PlantData data={content}/>
-			
 			<section class="content">
 				<slot/>
 			</section>
+			<Footer/>
 		</article>
 	</body>
 </html>
