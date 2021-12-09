@@ -1,6 +1,6 @@
 ---
 name: Tradescantia zebrina
-image: Tradescantia-zebrina
+image: tradescantia-zebrina
 layout: ../layouts/default.astro
 last-updated: 2021-12-05
 
