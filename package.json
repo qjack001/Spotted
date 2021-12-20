@@ -17,10 +17,12 @@
 	"dependencies": {
 		"astro": "0.21.10",
 		"avif": "^0.0.4",
+		"capture-website": "^2.1.1",
 		"imagemin-cli": "^7.0.0",
-		"imagemin-webp": "^6.0.0"
+		"imagemin-webp": "^7.0.0"
 	},
 	"devDependencies": {
+		"@originjs/vite-plugin-commonjs": "^1.0.1",
 		"eslint-config-goodbyte-styleguide": "^0.0.7",
 		"textlint-rule-preset-goodbyte-styleguide": "^0.0.5"
 	}

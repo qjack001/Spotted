@@ -25,6 +25,9 @@
 		".env.production": true,
 		"astro.config.mjs": true,
 		"public/**/*.avif": true,
-		"public/**/*.webp": true
-	}
+		"public/**/*.webp": true,
+	},
+	"cSpell.words": [
+		"vite"
+	]
 }

@@ -3,3 +3,5 @@ node_modules/
 dist
 *.avif
 *.webp
+public/social-media/*
+!public/social-media/spotted-social-preview.png
