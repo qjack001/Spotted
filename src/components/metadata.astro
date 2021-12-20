@@ -1,12 +1,60 @@
+---
+import SocialImage from '../social-image-generator.js'
+
+const baseUrl = import.meta.env.PUBLIC_BASE_URL
+
+// defaults
+let title = 'Spotted'
+let socialImage = `${baseUrl}/spotted-social-preview.png`
+let socialTitle = 'Spotted'
+let socialDescription = 'A website for cataloguing houseplants and documenting how to care for them.'
+let canonicalUrl = 'https://guinane.xyz/Spotted'
+
+const { from } = Astro.props
+const post = from
+
+if (post != undefined) {
+	title = `${post.name} | Spotted`
+	socialImage = `${baseUrl}/social-media/${post.image}.png`
+	socialTitle = `Spotted: ${post.name}`
+	socialDescription = `Learn more about the ${post.name} and how to take care of it on Spotted.`
+	canonicalUrl = post.url
+
+	await SocialImage.generate(post.name, post.image)
+}
+---
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="author" content="Ella Minicola, Jack Guinane"/>
-<link rel="icon" type="image/svg+xml" href={`${import.meta.env.PUBLIC_BASE_URL}/favicon.svg`}>
+<meta name="author" content="Ella Minicola, Jack Guinane">
+<link rel="icon" type="image/svg+xml" href={`${baseUrl}/favicon.svg`}>
+<title>{title}</title>
+
+<meta property="og:site_name" content="Spotted">
+<meta property="og:type" content="website">
+<meta property="og:url" content={canonicalUrl}>
+<meta property="og:title" content={socialTitle}>
+<meta property="og:description" content={socialDescription}>
+<meta property="og:image" content={socialImage}>
+<meta name="twitter:title" content={socialTitle}>
+<meta name="twitter:description" content={socialDescription}>
+<meta name="twitter:image" content={socialImage}>
+<meta name="twitter:image:alt" content={`watercolor painting of ${title}`}>
+<meta name="twitter:card" content="summary_large_image">
+
 <meta name="theme-color" content="#3c9c55">
 <style global>
+	/* 
+	 * Global styles
+	 */
 	:root
 	{
+		/*
+		 * Colors are in HSL format without the parenthesis so you can change
+		 * the opacity. For example, hsl(var(--green) / 0.5); would show green
+		 * at 50% transparency.
+		 */
 		--light-green: 89deg 86% 95%;
 		--green: 136deg 45% 43%;
 		--dark-green: 136deg 65% 5%;
