@@ -16,7 +16,7 @@
 	},
 	"dependencies": {
 		"astro": "0.21.10",
-		"avif": "^0.0.4",
+		"avif": "^0.1.0",
 		"capture-website": "^2.1.1",
 		"imagemin-cli": "^7.0.0",
 		"imagemin-webp": "^7.0.0"
