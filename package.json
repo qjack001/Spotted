@@ -22,7 +22,7 @@
 		"imagemin-webp": "^7.0.0"
 	},
 	"devDependencies": {
-		"@originjs/vite-plugin-commonjs": "^1.0.1",
+		"@originjs/vite-plugin-commonjs": "^1.0.2",
 		"eslint-config-goodbyte-styleguide": "^0.0.7",
 		"textlint-rule-preset-goodbyte-styleguide": "^0.0.5"
 	}
