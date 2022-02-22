@@ -15,7 +15,7 @@
 		"local:webp": "imagemin public/images/*.png --out-dir=public/images --plugin.webp.method=1 --plugin.webp.quality=50"
 	},
 	"dependencies": {
-		"astro": "0.21.10",
+		"astro": "0.23.0",
 		"avif": "^0.1.0",
 		"capture-website": "^2.1.1",
 		"imagemin-cli": "^7.0.0",
