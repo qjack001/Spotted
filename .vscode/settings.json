@@ -16,7 +16,7 @@
 		"**/.git": true,
 		".gitignore": true,
 		"**/.DS_Store": true,
-		"package-lock.json": true,
+		"pnpm-lock.yaml": true,
 		"node_modules": true,
 		"dist": true,
 		".eslintrc": true,
@@ -24,10 +24,14 @@
 		".env.development": true,
 		".env.production": true,
 		"astro.config.mjs": true,
+		"postcss.config.cjs": true,
 		"public/**/*.avif": true,
 		"public/**/*.webp": true,
 	},
-	"cSpell.words": [
-		"vite"
-	]
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [{
+			"scope": "string.key.json5",
+			"settings": { "foreground": "#8BDEDB" },
+		}],
+	},
 }

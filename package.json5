@@ -1,0 +1,34 @@
+{
+	name: 'spotted',
+	private: true,
+	engines:
+	{
+		node: '>=16',
+		pnpm: '>=6',
+	},
+	scripts:
+	{
+		dev: 'npm run local:avif && npm run local:webp && astro dev',
+		build: 'astro build && npm run convert:images && touch dist/.nojekyll',
+		lint: 'eslint . && textlint **/*.md',
+		fix: 'eslint . --fix && textlint **/*.md --fix',
+
+		// convert images
+		'convert:images': 'npm run convert:avif && npm run convert:webp',
+		'convert:avif': 'avif --input=dist/images/*.png --output=dist/images --speed=0 --quality=50 --overwrite',
+		'convert:webp': 'imagemin dist/images/*.png --out-dir=dist/images --plugin.webp.method=6 --plugin.webp.quality=50',
+		'local:avif': 'avif --input=public/images/*.png --output=public/images --speed=6 --quality=50 --overwrite',
+		'local:webp': 'imagemin public/images/*.png --out-dir=public/images --plugin.webp.method=1 --plugin.webp.quality=50'
+	},
+	devDependencies: {
+		'astro': '0.23.7', // pin while in beta
+		'autoprefixer': '^10.4.2',
+		'capture-website': '2.1.0', // pin -- vite & node built-ins don't mix well
+		'@originjs/vite-plugin-commonjs': '1.0.2', // pin -- see above
+		'avif': '^0.1.0',
+		'imagemin-cli': '^7.0.0',
+		'imagemin-webp': '^7.0.0',
+		'eslint-config-goodbyte-styleguide': '^0.0.7',
+		'textlint-rule-preset-goodbyte-styleguide': '^0.0.5'
+	}
+}
