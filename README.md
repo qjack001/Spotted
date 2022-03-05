@@ -17,13 +17,13 @@ can  be found in [its _Deployment_ section](https://github.com/qjack001/qjack001
 Clone the repository, and install the dependencies:
 
 ```bash
-npm install
+pnpm install
 ```
 
 To build and run the site locally:
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 #### Project Structure

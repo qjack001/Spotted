@@ -94,4 +94,14 @@ const baseUrl = import.meta.env.PUBLIC_BASE_URL
 		margin: 3rem auto;
 		text-align: justify;
 	}
+
+	section.content :global(a)
+	{
+		color: hsl(var(--green) / 1);
+		text-decoration: none;
+		background-image: linear-gradient(currentcolor, currentcolor);
+		background-repeat: no-repeat;
+		background-size: 100% 0.08em;
+		background-position: bottom;
+	}
 </style>
