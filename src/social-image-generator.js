@@ -3,7 +3,7 @@ import { readFileSync } from 'fs'
 
 /**
  * Generated image previews for pages, shown when sharing the URL on social
- * media. Generated a styled webpage and opens it in headless-Chrome (using
+ * media. Generates a styled webpage and opens it in headless-Chrome (using
  * Puppeteer). Screenshots the generated site and saves the image to the
  * social-media folder. This is done in the metadata.astro file for every page.
  * 
