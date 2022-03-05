@@ -21,21 +21,11 @@
 
 <meta name="theme-color" content="#3c9c55">
 
-	<link rel="stylesheet" href="../assets/anthurium-crystallinum.d26b88aa.css">
+	<link rel="stylesheet" href="../assets/ficus-elastica.c57916d9.css">
 
 
 
-<script astro-script="/curio-rowleyanus/script-0">let images = ["alocasia-sanderiana","anthurium-crystallinum","curio-rowleyanus","ficus-elastica","lavender","monstera-adansonii","newpothos","peperomia-obtusifolia","pothos","rosemary","sage","spiderplant","tradescantia-zebrina","zebraplant"];
-let baseUrl = "https://guinane.xyz/Spotted";
-
-window.onload = function() {
-		const randomImage = images[Math.floor(Math.random() * images.length)]
-		document.getElementById('logo-img').innerHTML = `
-			<source type="image/avif" srcset="${baseUrl}/images/${randomImage}.avif"/>
-			<source type="image/webp" srcset="${baseUrl}/images/${randomImage}.webp"/>
-			<img src="${baseUrl}/images/${randomImage}.png" alt="A potted plant"/>
-		`
-	}</script></head>
+</head>
 	<body>
 		<div class="logo astro-MGGY6C5Y">
 			<a href="https://guinane.xyz/Spotted" class="astro-YRPCCTFS">
@@ -48,7 +38,18 @@ window.onload = function() {
 	</picture>
 </a>
 
+<script hoist="">let images = ["alocasia-sanderiana","anthurium-crystallinum","curio-rowleyanus","ficus-elastica","lavender","monstera-adansonii","newpothos","peperomia-obtusifolia","pothos","rosemary","sage","spiderplant","tradescantia-zebrina","zebraplant"];
+let baseUrl = "https://guinane.xyz/Spotted";
 
+	window.onload = function() {
+		const randomImage = images[Math.floor(Math.random() * images.length)]
+		document.getElementById('logo-img').innerHTML = `
+			<source type="image/avif" srcset="${baseUrl}/images/${randomImage}.avif"/>
+			<source type="image/webp" srcset="${baseUrl}/images/${randomImage}.webp"/>
+			<img src="${baseUrl}/images/${randomImage}.png" alt="A potted plant"/>
+		`
+	}
+</script>
 
 
 		</div>
